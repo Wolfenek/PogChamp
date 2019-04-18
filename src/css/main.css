@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #d5cfcf;
+  background-color: #0e3958;
+  font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+/*# sourceMappingURL=main.css.map */
