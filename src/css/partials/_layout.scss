@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  @media (min-width: 768px) {
+    max-width: 720px;
+  }
+  @media (min-width: 992px) {
+    max-width: 960px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 1140px;
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-heroes {
+  position: relative;
+  width: 100%;
+  flex: 0 0 80px;
+  max-width: 80px;
+  @media (min-width: 768px) {
+    flex: 0 0 160px;
+    max-width: 160px;
+  }
+}

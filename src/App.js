@@ -3,8 +3,12 @@ import Heroes from "../src/containers/Heroes";
 
 const App = () => {
   return (
-    <div>
-      <Heroes />
+    <div className="container">
+      <div className="row">
+        <div className="col-heroes">
+          <Heroes />
+        </div>
+      </div>
     </div>
   );
 };

@@ -2,6 +2,7 @@
 @import "./partials/typography";
 @import "./partials/mixins";
 @import "./partials/heroList";
+@import "./partials/layout";
 
 body {
   margin: 0;
@@ -12,6 +13,12 @@ body {
   font-family: $font-set;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 code {
