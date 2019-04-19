@@ -1,3 +1,16 @@
+.hero-list {
+  list-style: none;
+  max-height: 90vh;
+  overflow-y: scroll;
+  max-width: 75px;
+  border-right: 3px solid #041f3a;
+  padding: 0;
+}
+
+.hero-list img {
+  cursor: pointer;
+}
+
 body {
   margin: 0;
   padding: 0;
