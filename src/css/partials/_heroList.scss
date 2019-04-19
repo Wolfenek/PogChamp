@@ -5,6 +5,11 @@
   background: $bg-color-alt;
   border-right: 3px solid #041f3a;
   padding: 0;
+  li {
+    @include small {
+      display: inline;
+    }
+  }
   img {
     cursor: pointer;
   }

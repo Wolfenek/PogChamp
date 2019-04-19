@@ -2,13 +2,13 @@
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  @media (min-width: 768px) {
+  @include medium {
     max-width: 720px;
   }
-  @media (min-width: 992px) {
+  @include large {
     max-width: 960px;
   }
-  @media (min-width: 1200px) {
+  @include xl {
     max-width: 1140px;
   }
 }
@@ -19,12 +19,19 @@
 }
 
 .col-heroes {
-  position: relative;
-  width: 100%;
+  @include column;
   flex: 0 0 80px;
   max-width: 80px;
-  @media (min-width: 768px) {
+  @include small {
     flex: 0 0 160px;
     max-width: 160px;
   }
+}
+
+.col-showcase {
+  @include column;
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+  border: 4px solid steelblue;
 }

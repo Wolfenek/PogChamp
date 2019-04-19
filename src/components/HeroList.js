@@ -5,8 +5,8 @@ const HeroList = () => {
   return (
     <ul className="hero-list">
       {HeroPortraits.map(({ id, src, altTag }) => (
-        <li>
-          <img key={id} src={src} alt={altTag} />
+        <li key={id}>
+          <img src={src} alt={altTag} />
         </li>
       ))}
     </ul>
