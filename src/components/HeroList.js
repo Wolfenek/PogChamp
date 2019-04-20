@@ -1,13 +1,12 @@
 import React from "react";
 import HeroPortraits from "../images/HeroPortraits";
+import HeroIcons from "./HeroIcons";
 
 const HeroList = () => {
   return (
     <ul className="hero-list">
       {HeroPortraits.map(({ id, src, altTag }) => (
-        <li key={id}>
-          <img src={src} alt={altTag} />
-        </li>
+        <HeroIcons key={id} id={id} src={src} altTag={altTag} />
       ))}
     </ul>
   );

@@ -1,33 +1,33 @@
-import Ana from "./HeroIcons/icon-ana.png";
-import Ashe from "./HeroIcons/icon-ashe.png";
-import Baptiste from "./HeroIcons/icon-baptiste.png";
-import Bastion from "./HeroIcons/icon-bastion.png";
-import Brigitte from "./HeroIcons/icon-brigitte.png";
-import DVa from "./HeroIcons/icon-d.va.png";
-import Doomfist from "./HeroIcons/icon-doomfist.png";
-import Genji from "./HeroIcons/icon-genji.png";
-import Hanzo from "./HeroIcons/icon-hanzo.png";
-import Junkrat from "./HeroIcons/icon-junkrat.png";
-import Lucio from "./HeroIcons/icon-lucio.png";
-import McCree from "./HeroIcons/icon-mccree.png";
-import Mei from "./HeroIcons/icon-mei.png";
-import Mercy from "./HeroIcons/icon-mercy.png";
-import Moira from "./HeroIcons/icon-moira.png";
-import Orisa from "./HeroIcons/icon-orisa.png";
-import Pharah from "./HeroIcons/icon-pharah.png";
-import Reaper from "./HeroIcons/icon-reaper.png";
-import Reinhardt from "./HeroIcons/icon-reinhardt.png";
-import Roadhog from "./HeroIcons/icon-roadhog.png";
-import Soldier from "./HeroIcons/icon-soldier_76.png";
-import Sombra from "./HeroIcons/icon-sombra.png";
-import Symmetra from "./HeroIcons/icon-symmetra.png";
-import Torbjörn from "./HeroIcons/icon-torbjörn.png";
-import Tracer from "./HeroIcons/icon-tracer.png";
-import Widowmaker from "./HeroIcons/icon-widowmaker.png";
-import Winston from "./HeroIcons/icon-winston.png";
-import WreckingBall from "./HeroIcons/icon-wrecking_ball.png";
-import Zarya from "./HeroIcons/icon-zarya.png";
-import Zenyatta from "./HeroIcons/icon-zenyatta.png";
+import Ana from "./HeroImages/icon-ana.png";
+import Ashe from "./HeroImages/icon-ashe.png";
+import Baptiste from "./HeroImages/icon-baptiste.png";
+import Bastion from "./HeroImages/icon-bastion.png";
+import Brigitte from "./HeroImages/icon-brigitte.png";
+import DVa from "./HeroImages/icon-d.va.png";
+import Doomfist from "./HeroImages/icon-doomfist.png";
+import Genji from "./HeroImages/icon-genji.png";
+import Hanzo from "./HeroImages/icon-hanzo.png";
+import Junkrat from "./HeroImages/icon-junkrat.png";
+import Lucio from "./HeroImages/icon-lucio.png";
+import McCree from "./HeroImages/icon-mccree.png";
+import Mei from "./HeroImages/icon-mei.png";
+import Mercy from "./HeroImages/icon-mercy.png";
+import Moira from "./HeroImages/icon-moira.png";
+import Orisa from "./HeroImages/icon-orisa.png";
+import Pharah from "./HeroImages/icon-pharah.png";
+import Reaper from "./HeroImages/icon-reaper.png";
+import Reinhardt from "./HeroImages/icon-reinhardt.png";
+import Roadhog from "./HeroImages/icon-roadhog.png";
+import Soldier from "./HeroImages/icon-soldier_76.png";
+import Sombra from "./HeroImages/icon-sombra.png";
+import Symmetra from "./HeroImages/icon-symmetra.png";
+import Torbjörn from "./HeroImages/icon-torbjörn.png";
+import Tracer from "./HeroImages/icon-tracer.png";
+import Widowmaker from "./HeroImages/icon-widowmaker.png";
+import Winston from "./HeroImages/icon-winston.png";
+import WreckingBall from "./HeroImages/icon-wrecking_ball.png";
+import Zarya from "./HeroImages/icon-zarya.png";
+import Zenyatta from "./HeroImages/icon-zenyatta.png";
 
 const HeroPortraits = [
   { id: "ana", src: `${Ana}`, altTag: "ana overwatch" },
@@ -57,7 +57,11 @@ const HeroPortraits = [
   { id: "tracer", src: `${Tracer}`, altTag: "tracer overwatch" },
   { id: "widowmaker", src: `${Widowmaker}`, altTag: "widowmaker overwatch" },
   { id: "winston", src: `${Winston}`, altTag: "winston overwatch" },
-  { id: "wrecking ball", src: `${WreckingBall}`, altTag: "wrecking ball overwatch" },
+  {
+    id: "wrecking ball",
+    src: `${WreckingBall}`,
+    altTag: "wrecking ball overwatch"
+  },
   { id: "zarya", src: `${Zarya}`, altTag: "zarya overwatch" },
   { id: "zenyatta", src: `${Zenyatta}`, altTag: "zenyatta overwatch" }
 ];
