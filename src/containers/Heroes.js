@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import HeroImages from "../images/HeroImages";
 import HeroIcons from "../components/HeroIcons";
 import HeroShowcase from "../components/HeroShowcase";
@@ -7,14 +7,18 @@ const Heroes = () => {
   const [hero, currentHero] = useState("");
 
   const setCurrentHero = e => {
-    currentHero(e.target.id);
-    console.log(hero);
+    currentHero(e.currentTarget.id);
   };
+
+  useEffect(() => {
+    console.log("Current hero is:", hero);
+  },[hero]);
 
   return (
     <div className="row">
       <div className="col-heroes">
         <ul className="hero-list">
+          {/* map function below */}
           {HeroImages.map(({ id, src, altTag }) => (
             <HeroIcons
               key={id}
@@ -27,7 +31,7 @@ const Heroes = () => {
         </ul>
       </div>
       <div className="col-showcase">
-        <HeroShowcase />
+        <HeroShowcase hero={hero} />
       </div>
     </div>
   );

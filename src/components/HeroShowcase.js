@@ -1,9 +1,9 @@
 import React from "react";
 
-const HeroShowcase = () => {
+const HeroShowcase = props => {
   return (
     <div>
-      <h1>Hello from HeroShowcase</h1>
+      <h1>{props.hero}</h1>
     </div>
   );
 };
