@@ -29,7 +29,7 @@ import WreckingBall from "./HeroImages/icon-wrecking_ball.png";
 import Zarya from "./HeroImages/icon-zarya.png";
 import Zenyatta from "./HeroImages/icon-zenyatta.png";
 
-const HeroPortraits = [
+const HeroImages = [
   { id: "ana", src: `${Ana}`, altTag: "ana overwatch" },
   { id: "ashe", src: `${Ashe}`, altTag: "ashe overwatch" },
   { id: "baptiste", src: `${Baptiste}`, altTag: "baptiste overwatch" },
@@ -66,4 +66,4 @@ const HeroPortraits = [
   { id: "zenyatta", src: `${Zenyatta}`, altTag: "zenyatta overwatch" }
 ];
 
-export default HeroPortraits;
+export default HeroImages;
