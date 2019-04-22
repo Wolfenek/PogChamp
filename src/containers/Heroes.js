@@ -11,8 +11,10 @@ const Heroes = () => {
   };
 
   useEffect(() => {
-    console.log("Current hero is:", hero);
-  },[hero]);
+    if (hero) {
+      console.log("Current hero is:", hero);
+    }
+  }, [hero]);
 
   return (
     <div className="row">
