@@ -1,27 +1,36 @@
 import React from "react";
 
 const HeroShowcase = props => {
-  console.log("from away", props.description);
-  // const iterator = nameOfNestedObject => {
-  //   for (let i = 0; i < nameOfNestedObject.length; i++) {
-  //     return nameOfNestedObject[i];
-  //   }
-  // };
+  const { description } = props;
+  console.log("from away", description[0]);
 
-  const content = props.description.map(info => (
-    <div key={info.id}>
-      <h1>{info.name}</h1>
-      <h2>Role: {info.role}</h2>
+  
+    /* <ul>
+        {description[0].skill_1.map((skill, index) => (
+          <li key={index}>{skill}</li>
+        ))}
+      </ul> */
+  
+
+  const content = description.map(item => (
+    <div key={item.id}>
+      <h1>{item.name}</h1>
+      <h2>Role: {item.role}</h2>
       <ul>
-        <li>Total: {info.health_points.total}</li>
-        <li>Base HP: {info.health_points.base_hp}</li>
-        <li>Armor: {info.health_points.armor}</li>
-        <li>Shield: {info.health_points.shield}</li>
+        <li>Total: {item.health_points.total}</li>
+        <li>Base HP: {item.health_points.base_hp}</li>
+        <li>Armor: {item.health_points.armor}</li>
+        <li>Shield: {item.health_points.shield}</li>
       </ul>
+      <hr />
     </div>
   ));
 
-  return <div>{content}</div>;
+  return (
+    <div>
+      <ul>{content}</ul>
+    </div>
+  );
 };
 
 export default HeroShowcase;

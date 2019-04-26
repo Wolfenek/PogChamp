@@ -6,23 +6,22 @@ import HeroShowcase from "../components/HeroShowcase";
 
 const Heroes = () => {
   const [hero, currentHero] = useState("");
+  const [allDescriptions] = useState(HeroDescriptions);
   const [description, currentDescription] = useState(HeroDescriptions);
 
   useEffect(() => {
-    if (hero) {
-      console.log("Current hero is:", hero);
-      setCurrentDescription();
-      console.log("Description is", description);
-    }
+    console.log("Current hero is:", hero);
+    setCurrentDescription();
+    console.log("Description is", description);
   }, [hero]);
 
   const setCurrentHero = e => {
     currentHero(e.currentTarget.id);
   };
 
-  const setCurrentDescription = () => {
-    currentDescription(description.filter(data => data.id === "ana"));
-  };
+  function setCurrentDescription() {
+    currentDescription(allDescriptions.filter(data => data.id === hero));
+  }
 
   return (
     <div className="row">
@@ -41,7 +40,7 @@ const Heroes = () => {
         </ul>
       </div>
       <div className="col-showcase">
-          {/* might need conditional rendering below */}
+        {/* might need conditional rendering below */}
         <HeroShowcase description={description} />
       </div>
     </div>
