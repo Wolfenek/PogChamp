@@ -1,22 +1,13 @@
+import fullAna from "../images/FullImages/fullAna.png";
+import ana1 from "../images/SkillIcons/ana1.png";
+import ana3 from "../images/SkillIcons/ana3.png";
+import fullBaptiste from "../images/FullImages/fullBaptiste.png";
+
 const HeroDescriptions = [
   {
     id: "ana",
     name: "Ana",
-    role: "Support",
-    hp: {
-      get total() {
-        return this.base_hp + this.armor + this.shield;
-      },
-      base_hp: 200,
-      armor: 1000,
-      shield: 0
-    },
-    skill_1: ["Biotic Rifle", "Damage: 70", "Healing: 75"],
-    skill_2: ["Biotic Grenade", "Damage: 60", "Healing: 100"]
-  },
-  {
-    id: "baptiste",
-    name: "Baptiste",
+    img: `${fullAna}`,
     role: "Support",
     hp: {
       get total() {
@@ -24,14 +15,65 @@ const HeroDescriptions = [
       },
       base_hp: 200,
       armor: 0,
-      shield: 20
+      shield: 0
     },
-    skill_1: ["Dude", "Damage: 70", "Healing: 75"],
-    skill_2: ["Biotic Grenade", "Damage: 60", "Healing: 100"],
-    skill_3: ["Gargul", "Damage: 60", "Healing: 100"]
+    skills: [
+      {
+        img: `${ana1}`,
+        name: "Biotic Rifle",
+        desc:
+          "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots.",
+        type: "Pimary fire: Linear projectile / Secondary fire: Scoped hitscan",
+        dmg: 70,
+        healing: 75,
+        headshot: "no"
+      },
+      {
+        img: `${ana3}`,
+        name:
+          "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments",
+        type: "thrown arching projectile",
+        desc: "cool ability",
+        dmg: 60,
+        healing: 100,
+        headshot: "no"
+      }
+    ]
+  },
+  {
+    id: "baptiste",
+    name: "Baptiste",
+    img: `${fullBaptiste}`,
+    role: "Support",
+    hp: {
+      get total() {
+        return this.base_hp + this.armor + this.shield;
+      },
+      base_hp: 200,
+      armor: 0,
+      shield: 0
+    },
+    skills: [
+      {
+        img: `${ana1}`,
+        name: "Biotic Rifle",
+        desc: "Baptiste description 1.",
+        type: "Pimary fire: Linear projectile / Secondary fire: Scoped hitscan",
+        dmg: 70,
+        healing: 75,
+        headshot: "no"
+      },
+      {
+        img: `${ana3}`,
+        name: "Baptiste description 2",
+        type: "thrown arching projectile",
+        desc: "cool ability",
+        dmg: 60,
+        healing: 100,
+        headshot: "no"
+      }
+    ]
   }
 ];
 
 export default HeroDescriptions;
-
-// { "skills": [ { "name": "rifle", "damage": 70, "healing": 50 }, { "name": "knife", "damage": 15, "healing": 10 }] }
