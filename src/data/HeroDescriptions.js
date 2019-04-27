@@ -3,51 +3,35 @@ const HeroDescriptions = [
     id: "ana",
     name: "Ana",
     role: "Support",
-    health_points: {
-      total: 200,
+    hp: {
+      get total() {
+        return this.base_hp + this.armor + this.shield;
+      },
       base_hp: 200,
-      armor: 0,
+      armor: 1000,
       shield: 0
     },
-    skills: [
-      {
-        ability_1: "Biotic Rifle",
-        description:
-          "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots.",
-        icon: "insert-icon-here",
-        mode: "Primary Fire",
-        type: "Linear Projectile",
-        dmg: "Damage: 70",
-        heal: "Healing: 75",
-        rof: "Rate of fire: 1.25 per sec",
-        reload: "Reload time: 1.5 sec",
-        mode_2: "Secondary Fire",
-        type_2: "Single hitscan shit (scoped)",
-        scope_in: "Scope in: 0.25 sec",
-        scope_out: "Scope out: 0.16 sec",
-        headshot: "Headshot: no"
-      },
-      { name: "dude", damage: 500 }
-    ]
+    skill_1: ["Biotic Rifle", "Damage: 70", "Healing: 75"],
+    skill_2: ["Biotic Grenade", "Damage: 60", "Healing: 100"]
   },
   {
     id: "baptiste",
     name: "Baptiste",
     role: "Support",
-    health_points: {
-      total: 200,
+    hp: {
+      get total() {
+        return this.base_hp + this.armor + this.shield;
+      },
       base_hp: 200,
       armor: 0,
-      shield: 0
+      shield: 20
     },
-    skills: [
-      { name: "rifle", damage: 70, healing: 50 },
-      { name: "knife", damage: 15, healing: 10 }
-    ]
+    skill_1: ["Dude", "Damage: 70", "Healing: 75"],
+    skill_2: ["Biotic Grenade", "Damage: 60", "Healing: 100"],
+    skill_3: ["Gargul", "Damage: 60", "Healing: 100"]
   }
 ];
 
 export default HeroDescriptions;
 
 // { "skills": [ { "name": "rifle", "damage": 70, "healing": 50 }, { "name": "knife", "damage": 15, "healing": 10 }] }
-
