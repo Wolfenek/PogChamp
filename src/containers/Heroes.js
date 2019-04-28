@@ -40,8 +40,12 @@ const Heroes = () => {
         </ul>
       </div>
       <div className="col-showcase">
-        {/* might need conditional rendering below */}
-        <HeroShowcase description={description} />
+        {/* might to only render HeroShowcase when the filter method is complete */}
+        {hero ? (
+          <HeroShowcase description={description} />
+        ) : (
+          <h2>Select heroes on the left to view info about them</h2>
+        )}
       </div>
     </div>
   );
