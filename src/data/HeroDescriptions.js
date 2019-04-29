@@ -23,17 +23,17 @@ const HeroDescriptions = [
         name: "Biotic Rifle",
         desc:
           "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots.",
-        type: "Pimary fire: Linear projectile / Secondary fire: Scoped hitscan",
+        type: "Linear projectile / Scoped hitscan",
         dmg: 70,
         healing: 75,
         headshot: "no"
       },
       {
         img: `${ana3}`,
-        name:
+        name: "Biotic Grenade",
+        desc:
           "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments",
-        type: "thrown arching projectile",
-        desc: "cool ability",
+        type: "Thrown arching projectile",
         dmg: 60,
         healing: 100,
         headshot: "no"

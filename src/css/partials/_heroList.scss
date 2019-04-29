@@ -25,10 +25,12 @@
   @extend .row;
   flex-direction: column;
   h1 {
+    @include italic;
     font-size: 48px;
     margin: 5px;
   }
   h2 {
+    @include italic;
     font-size: 36px;
     margin: 5px;
   }
@@ -66,6 +68,7 @@
 .skill-name {
   grid-area: skill-name;
   border: $outline;
+  @include italic;
 }
 
 .skill-desc {

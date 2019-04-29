@@ -33,11 +33,13 @@
 }
 
 .hero-header h1 {
+  font-style: italic;
   font-size: 48px;
   margin: 5px;
 }
 
 .hero-header h2 {
+  font-style: italic;
   font-size: 36px;
   margin: 5px;
 }
@@ -82,6 +84,7 @@
   -ms-grid-column: 2;
   grid-area: skill-name;
   border: 4px solid steelblue;
+  font-style: italic;
 }
 
 .skill-desc {
