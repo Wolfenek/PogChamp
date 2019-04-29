@@ -6,21 +6,24 @@ const HeroShowcase = props => {
 
   function showSkills() {
     return description[0].skills.map(item => (
-      <>
-        <div className="skill-info-grid">
-          <div className="skill-icon">
-            <img src={item.img} />
-          </div>
-          <div className="skill-desc">
-            <h2>{item.name}</h2>
-          </div>
+      <div className="skill-info-grid">
+        <div className="skill-icon">
+          <img src={item.img} />
         </div>
-        <li className="other-info">{item.name}</li>
-        <li className="other-info">{item.desc}</li>
-        <li className="other-info">Damage: {item.dmg}</li>
-        <li className="other-info">Healing: {item.healing}</li>
-        <li className="other-info">Headshot: {item.headshot}</li>
-      </>
+        <div className="skill-name">
+          <h1>{item.name}</h1>
+        </div>
+        <div className="skill-desc">
+          <h3>{item.desc}</h3>
+        </div>
+        <div className="more-info">
+          <ul>
+            <li className="other-info">Damage: {item.dmg}</li>
+            <li className="other-info">Healing: {item.healing}</li>
+            <li className="other-info">Headshot: {item.headshot}</li>
+          </ul>
+        </div>
+      </div>
     ));
   }
 

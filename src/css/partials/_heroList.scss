@@ -46,9 +46,34 @@
 
 // Hero skill info
 .skill-info-grid {
-  grid-template-columns: 1fr minmax(150px, 1fr), 1fr minmax(450px, 1fr);
-  grid-template-rows: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
+    "skill-icon skill-name"
     "skill-icon skill-desc"
-    "skill-icon more-info";
+    "more-info more-info";
+}
+
+.skill-icon {
+  grid-area: skill-icon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: $outline;
+}
+
+.skill-name {
+  grid-area: skill-name;
+  border: $outline;
+}
+
+.skill-desc {
+  grid-area: skill-desc;
+  border: $outline;
+}
+
+.more-info {
+  grid-area: more-info;
+  border: $outline;
 }
