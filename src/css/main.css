@@ -85,12 +85,24 @@
   grid-area: skill-name;
   border: 4px solid steelblue;
   font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .skill-desc {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: skill-desc;
+  font-size: 19px;
+  text-align: justify;
+  padding: 0 10px;
   border: 4px solid steelblue;
 }
 

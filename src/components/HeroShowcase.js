@@ -14,7 +14,7 @@ const HeroShowcase = props => {
           <h1>{item.name}</h1>
         </div>
         <div className="skill-desc">
-          <h3>{item.desc}</h3>
+          <p>{item.desc}</p>
         </div>
         <div className="more-info">
           <ul className="list-inline">

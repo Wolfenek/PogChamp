@@ -69,10 +69,16 @@
   grid-area: skill-name;
   border: $outline;
   @include italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .skill-desc {
   grid-area: skill-desc;
+  font-size: 19px;
+  text-align: justify;
+  padding: 0 10px;
   border: $outline;
 }
 
