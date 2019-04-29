@@ -21,6 +21,11 @@ body {
   box-sizing: border-box;
 }
 
+ul {
+  padding: 0;
+  list-style: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

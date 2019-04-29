@@ -13,10 +13,14 @@ const HeroShowcase = props => {
   // }
 
   const content = description.map(({ id, name, img, role, hp }) => (
-    <div key={id}>
-      <h1>{name}</h1>
-      <h2>Role: {role}</h2>
-      <img src={img} />
+    <>
+      <div className="self-center" key={id}>
+        <div className="hero-header">
+          <h1>{name}</h1>
+          <h2>Role: {role}</h2>
+        </div>
+        <img src={img} />
+      </div>
       <ul>
         <li>Total HP: {hp.total}</li>
         <li>Base HP: {hp.base_hp}</li>
@@ -45,7 +49,7 @@ const HeroShowcase = props => {
         ))} */}
 
       <hr />
-    </div>
+    </>
   ));
 
   return (

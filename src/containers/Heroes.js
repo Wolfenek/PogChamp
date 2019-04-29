@@ -39,8 +39,8 @@ const Heroes = () => {
           ))}
         </ul>
       </div>
-      <div className="col-showcase">
-        {/* might to only render HeroShowcase when the filter method is complete */}
+      <div className="col-showcase txt-center">
+        {/* might need to only render HeroShowcase when the filter method is complete */}
         {hero ? (
           <HeroShowcase description={description} />
         ) : (
