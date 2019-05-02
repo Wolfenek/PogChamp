@@ -1,24 +1,37 @@
-const HeroDescripton = [
+const HeroDescriptions = [
   {
-    id: "ana",
-    name: "Ana",
-    role: "Support",
+    id: "",
+    name: "",
+    img: "",
+    role: "",
+    flavor: "",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
       },
-      base_hp: 200,
-      armor: 1000,
+      base_hp: 0,
+      armor: 0,
       shield: 0
     },
     skills: [
       {
-        name: "Biotic Rifle",
-        desc:
-          "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots.",
-        effect: "Damage:" + 70 / "Healing:" + 75
-      },
-      { name: "Altet", damage: 15, healing: 10, effect: "none" }
+        img: "",
+        name: "",
+        desc: "",
+        flavor: "",
+        type: "",
+        ammo: 0,
+        duration: 0,
+        aoe: 0,
+        dmg: 0,
+        healing: 0,
+        rot: 0,
+        reload: "",
+        headshot: "",
+        knockback: "",
+        cooldown: 0,
+        other: ""
+      }
     ]
   }
 ];
