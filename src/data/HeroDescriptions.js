@@ -23,75 +23,85 @@ const HeroDescriptions = [
         name: "Biotic Rifle",
         desc:
           "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots.",
-        flavor: "",
-        type: "Linear projectile / Scoped hitscan",
-        ammo: 14,
-        duration: "~0.85 damage over time",
-        dmg: 70,
-        healing: 75,
-        rot: "na",
-        reload: 1.5,
-        headshot: "no",
-        knockback: "na",
-        cooldown: "na",
-        other: "na"
+        tip: "This ability provides some solid long range healing",
+        flavor:
+          "Ana's sharp shooting skills may ease your pain... or give you a headache"
       },
       {
         img: "tba",
         name: "Sleep Dart",
         desc:
           "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them).",
-        flavor: "",
-        type: "Linear projectile",
-        ammo: 1,
-        duration: "max 6",
-        aoe: "na",
-        dmg: 5,
-        healing: "na",
-        rot: "na",
-        reload: "na",
-        headshot: "na",
-        knockback: "na",
-        cooldown: 12,
-        other: ""
+        tip: "Try to get into the habit of not immediately waking up the enemy",
+        flavor:
+          "Nap time is an important part of every hero's day. Even if you're an enraged scientist from moon"
       },
       {
         img: `${ana3}`,
         name: "Biotic Grenade",
         desc:
           "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments.",
-        flavor: "",
-        type: "Thrown arching projectile",
-        ammo: 1,
-        duration: 4,
-        aoe: 4,
-        dmg: 60,
-        healing: 100,
-        rot: "na",
-        reload: "na",
-        headshot: "no",
-        knockback: "na",
-        cooldown: 10,
-        other: "na"
+        tip: "Zenyatta still cannot understand why his ultimate failed",
+        flavor:
+          "It's worth to cut down the enemies healing and focus them down as a team"
       },
       {
         img: "",
         name: "Nano Boost",
         desc:
           "After Ana hits one of her allies with a combat boost, they deal more damage, and take less damage from enemies’ attacks.",
-        flavor: "",
-        type: "Targeted hitscan",
-        ammo: 1,
-        duration: 8,
-        aoe: "na",
-        dmg: "+50% boost",
-        healing: "dmg reduced by 50%",
-        rot: "na",
-        reload: "na",
-        headshot: "na",
-        knockback: "na",
-        cooldown: "na",
-        other: "Ultimate ability"
+        tip:
+          "Use it to boost powerful ultimate abilities, or to safe an ally in need",
+        flavor: "Lucio secretly dreams of becoming nano-boosted by Ana"
+      }
+    ]
+  },
+  {
+    id: "ashe",
+    name: "Ashe",
+    img: "tba",
+    role: "Damage",
+    flavor: "",
+    hp: {
+      get total() {
+        return this.base_hp + this.armor + this.shield;
+      },
+      base_hp: 200,
+      armor: 0,
+      shield: 0
+    },
+    skills: [
+      {
+        img: "",
+        name: "The Viper",
+        desc:
+          "Ashe's semi-automatic rifle fires quick shots, or she can use her aim-down sights for a more damaging, precise shot.",
+        tip: "",
+        flavor: ""
+      },
+      {
+        img: "",
+        name: "Dynamite",
+        desc:
+          "Ashe throws an explosive that detonates after a short delay or immediately when shot. The explosion from Dynamite also lights enemies on fire, dealing damage over time.",
+        tip: "",
+        flavor: ""
+      },
+      {
+        img: "",
+        name: "Coach Gun",
+        desc:
+          "Ashe blasts enemies in front of her, knocking them away and propelling herself backward for added mobility.",
+        tip: "",
+        flavor: ""
+      },
+      {
+        img: "",
+        name: "B.O.B",
+        desc:
+          "Ashe summons her trusted omnic sidekick, Bob, who charges forward and knocks enemies into the air, then lays down suppressing fire with his arm cannons.",
+        tip: "",
+        flavor: ""
       }
     ]
   },
@@ -111,22 +121,100 @@ const HeroDescriptions = [
     skills: [
       {
         img: "",
-        name: "Biotic Launcher (Primary fire)",
+        name: "Biotic Launcher",
         desc:
           "Baptiste’s three-round-burst Biotic Launcher rewards accuracy and recoil control with significant damage output. It also doubles as a healing device, lobbing projectiles that heal allies near the point of impact.",
         flavor: "",
-        type: "Three-rounds hitscan",
-        ammo: 45,
-        duration: "na",
-        aoe: "na",
-        dmg: "12.5 - 25 per bullet",
-        healing: "na",
-        rot: "1 burst per 0.65 seconds, 3 bursts",
-        reload: 1.5,
-        headshot: "yes",
-        knockback: "na",
-        cooldown: "na",
-        other: ""
+        tip: ""
+      },
+      {
+        img: "",
+        name: "Regenerative Burst",
+        desc:
+          "Baptiste activates an intense regenerative burst that heals himself and nearby allies over time.",
+        flavor: "",
+        tip: ""
+      },
+      {
+        img: "",
+        name: "Immortality Field",
+        desc:
+          "Baptiste uses a device to create a field that prevents allies from dying. The generator can be destroyed.",
+        flavor:
+          "You wanted to bid farewell... But the lamp saved you once again",
+        tip: ""
+      },
+      {
+        img: "",
+        name: "Amplification Matrix",
+        desc:
+          "Baptiste creates a matrix that doubles the damage and healing effects of friendly projectiles that pass through it.",
+        flavor: "",
+        tip: ""
+      },
+      {
+        img: "",
+        name: "Exo Boots",
+        desc: "By first crouching, Baptiste can jump higher.",
+        flavor: "",
+        tip: ""
+      }
+    ]
+  },
+  {
+    id: "bastion",
+    name: "Bastion",
+    img: "",
+    role: "Damage",
+    flavor: "",
+    hp: {
+      get total() {
+        return this.base_hp + this.armor + this.shield;
+      },
+      base_hp: 200,
+      armor: 100,
+      shield: 0
+    },
+    skills: [
+      {
+        img: "",
+        name: "Configuration: Reckon",
+        desc:
+          "In Recon mode, Bastion is fully mobile, outfitted with a submachine gun that fires steady bursts of bullets at medium range.",
+        tip: "",
+        flavor: ""
+      },
+      {
+        img: "",
+        name: "Configuration: Sentry",
+        desc:
+          "In Sentry mode, Bastion is a stationary powerhouse equipped with a gatling gun capable of unleashing a hail of bullets. The gun's aim can be 'walked' across multiple targets, dealing devastating damage at short to medium range.",
+        tip: "",
+        flavor: ""
+      },
+      {
+        img: "",
+        name: "Reconfigure",
+        desc:
+          "Bastion transforms between its two primary combat modes to adapt to battlefield conditions.",
+        tip: "",
+        flavor: ""
+      },
+      {
+        img: "",
+        name: "Self-Repair",
+        desc:
+          "Bastion restores its health; it cannot fire weapons while the repair process is in effect.",
+        tip: "",
+        flavor: ""
+      },
+      {
+        img: "",
+        name: "Configuration: Tank",
+        desc:
+          "In Tank mode, Bastion extends wheeled treads and a powerful long-range cannon. The cannon’s explosive shells demolish targets in a wide blast radius, but Bastion can only remain in this mode for a limited time.",
+        tip: "",
+        flavor: ""
       }
     ]
   }

@@ -18,19 +18,8 @@ const HeroDescriptions = [
         img: "",
         name: "",
         desc: "",
-        flavor: "",
-        type: "",
-        ammo: 0,
-        duration: 0,
-        aoe: 0,
-        dmg: 0,
-        healing: 0,
-        rot: 0,
-        reload: "",
-        headshot: "",
-        knockback: "",
-        cooldown: 0,
-        other: ""
+        tip: "",
+        flavor: ""
       }
     ]
   }

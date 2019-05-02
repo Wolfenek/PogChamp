@@ -18,10 +18,8 @@ const HeroShowcase = props => {
         </div>
         <div className="more-info">
           <ul className="list-inline">
-            <li>{item.type}</li>
-            <li>Damage: {item.dmg}</li>
-            <li>Healing: {item.healing}</li>
-            <li>Headshot: {item.headshot}</li>
+            <li>{item.tip}</li>
+            <li>{item.flavor}</li>
           </ul>
         </div>
       </div>
