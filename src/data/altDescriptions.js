@@ -18,7 +18,6 @@ const HeroDescriptions = [
         img: "",
         name: "",
         desc: "",
-        tip: "",
         flavor: ""
       }
     ]
