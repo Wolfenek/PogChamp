@@ -1,7 +1,35 @@
 import fullAna from "../images/FullImages/fullAna.png";
+import fullAshe from "../images/FullImages/fullAshe.png";
 import ana1 from "../images/SkillIcons/ana1.png";
 import ana3 from "../images/SkillIcons/ana3.png";
 import fullBaptiste from "../images/FullImages/fullBaptiste.png";
+import fullBastion from "../images/FullImages/fullBastion.png";
+import fullBrigitte from "../images/FullImages/fullBrigitte.png";
+import fullDVa from "../images/FullImages/fullDVa.png";
+import fullDoomfist from "../images/FullImages/fullDoomfist.png";
+import fullGenji from "../images/FullImages/fullGenji.png";
+import fullHanzo from "../images/FullImages/fullHanzo.png";
+import fullJunkrat from "../images/FullImages/fullJunkrat.png";
+import fullLucio from "../images/FullImages/fullLucio.png";
+import fullMcCree from "../images/FullImages/fullMcCree.png";
+import fullMei from "../images/FullImages/fullMei.png";
+import fullMercy from "../images/FullImages/fullMercy.png";
+import fullMoira from "../images/FullImages/fullMoira.png";
+import fullOrisa from "../images/FullImages/fullOrisa.png";
+import fullPharah from "../images/FullImages/fullPharah.png";
+import fullReaper from "../images/FullImages/fullReaper.png";
+import fullReinhardt from "../images/FullImages/fullReinhardt.png";
+import fullRoadhog from "../images/FullImages/fullRoadhog.png";
+import fullSoldier from "../images/FullImages/fullSoldier.png";
+import fullSombra from "../images/FullImages/fullSombra.png";
+import fullSymmetra from "../images/FullImages/fullSymmetra.png";
+import fullTorbjörn from "../images/FullImages/fullTorbjörn.png";
+import fullTracer from "../images/FullImages/fullTracer.png";
+import fullWidowmaker from "../images/FullImages/fullWidowmaker.png";
+import fullWinston from "../images/FullImages/fullWinston.png";
+import fullWreckingBall from "../images/FullImages/fullWreckingBall.png";
+import fullZarya from "../images/FullImages/fullZarya.png";
+import fullZenyatta from "../images/FullImages/fullZenyatta.png";
 
 const HeroDescriptions = [
   {
@@ -54,7 +82,7 @@ const HeroDescriptions = [
   {
     id: "ashe",
     name: "Ashe",
-    img: "tba",
+    img: `${fullAshe}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -155,7 +183,7 @@ const HeroDescriptions = [
   {
     id: "bastion",
     name: "Bastion",
-    img: "",
+    img: `${fullBastion}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -207,7 +235,7 @@ const HeroDescriptions = [
   {
     id: "brigitte",
     name: "Brigitte",
-    img: "",
+    img: `${fullBrigitte}`,
     role: "Support",
     flavor: "",
     hp: {
@@ -266,7 +294,7 @@ const HeroDescriptions = [
   {
     id: "dva",
     name: "D.Va",
-    img: "",
+    img: `${fullDVa}`,
     role: "Tank",
     flavor: "",
     hp: {
@@ -331,8 +359,8 @@ const HeroDescriptions = [
   {
     id: "doomfist",
     name: "Doomfist",
-    img: "Damage",
-    role: "",
+    img: `${fullDoomfist}`,
+    role: "Damage",
     flavor: "",
     hp: {
       get total() {
@@ -382,7 +410,7 @@ const HeroDescriptions = [
   {
     id: "genji",
     name: "Genji",
-    img: "",
+    img: `${fullGenji}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -427,7 +455,7 @@ const HeroDescriptions = [
   {
     id: "hanzo",
     name: "Hanzo",
-    img: "",
+    img: `${fullHanzo}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -478,7 +506,7 @@ const HeroDescriptions = [
   {
     id: "junkrat",
     name: "Junkrat",
-    img: "",
+    img: `${fullJunkrat}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -530,7 +558,7 @@ const HeroDescriptions = [
   {
     id: "lucio",
     name: "Lucio",
-    img: "",
+    img: `${fullLucio}`,
     role: "Support",
     flavor: "",
     hp: {
@@ -575,7 +603,7 @@ const HeroDescriptions = [
   {
     id: "mccree",
     name: "McCree",
-    img: "",
+    img: `${fullMcCree}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -620,7 +648,7 @@ const HeroDescriptions = [
   {
     id: "mei",
     name: "Mei",
-    img: "",
+    img: `${fullMei}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -665,7 +693,7 @@ const HeroDescriptions = [
   {
     id: "mercy",
     name: "Mercy",
-    img: "",
+    img: `${fullMercy}`,
     role: "Support",
     flavor: "",
     hp: {
@@ -721,7 +749,7 @@ const HeroDescriptions = [
   {
     id: "moira",
     name: "Moira",
-    img: "",
+    img: `${fullMoira}`,
     role: "Support",
     flavor: "",
     hp: {
@@ -765,7 +793,7 @@ const HeroDescriptions = [
   {
     id: "orisa",
     name: "Orisa",
-    img: "",
+    img: `${fullOrisa}`,
     role: "Tank",
     flavor: "",
     hp: {
@@ -817,7 +845,7 @@ const HeroDescriptions = [
   {
     id: "pharah",
     name: "Pharah",
-    img: "",
+    img: `${fullPharah}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -862,7 +890,7 @@ const HeroDescriptions = [
   {
     id: "reaper",
     name: "Reaper",
-    img: "",
+    img: `${fullReaper}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -906,7 +934,7 @@ const HeroDescriptions = [
   {
     id: "reinhardt",
     name: "Reinhardt",
-    img: "",
+    img: `${fullReinhardt}`,
     role: "Tank",
     flavor: "",
     hp: {
@@ -958,7 +986,7 @@ const HeroDescriptions = [
   {
     id: "roadhog",
     name: "Roadhog",
-    img: "",
+    img: `${fullRoadhog}`,
     role: "Tank",
     flavor: "",
     hp: {
@@ -1003,7 +1031,7 @@ const HeroDescriptions = [
   {
     id: "soldier",
     name: "Soldier 76",
-    img: "",
+    img: `${fullSoldier}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -1055,7 +1083,7 @@ const HeroDescriptions = [
   {
     id: "sombra",
     name: "Sombra",
-    img: "",
+    img: `${fullSombra}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -1107,7 +1135,7 @@ const HeroDescriptions = [
   {
     id: "symmetra",
     name: "Symmetra",
-    img: "",
+    img: `${fullSymmetra}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -1152,7 +1180,7 @@ const HeroDescriptions = [
   {
     id: "torbjörn",
     name: "Torbjörn",
-    img: "",
+    img: `${fullTorbjörn}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -1204,7 +1232,7 @@ const HeroDescriptions = [
   {
     id: "tracer",
     name: "Tracer",
-    img: "",
+    img: `${fullTracer}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -1248,7 +1276,7 @@ const HeroDescriptions = [
   {
     id: "widowmaker",
     name: "Widowmaker",
-    img: "",
+    img: `${fullWidowmaker}`,
     role: "Damage",
     flavor: "",
     hp: {
@@ -1293,7 +1321,7 @@ const HeroDescriptions = [
   {
     id: "winston",
     name: "Winston",
-    img: "",
+    img: `${fullWinston}`,
     role: "Tank",
     flavor: "",
     hp: {
@@ -1338,7 +1366,7 @@ const HeroDescriptions = [
   {
     id: "wrecking ball",
     name: "Wrecking Ball",
-    img: "",
+    img: `${fullWreckingBall}`,
     role: "Tank",
     flavor: "",
     hp: {
@@ -1397,7 +1425,7 @@ const HeroDescriptions = [
   {
     id: "zarya",
     name: "Zarya",
-    img: "",
+    img: `${fullZarya}`,
     role: "Tank",
     flavor: "",
     hp: {
@@ -1440,32 +1468,9 @@ const HeroDescriptions = [
     ]
   },
   {
-    id: "",
-    name: "",
-    img: "",
-    role: "",
-    flavor: "",
-    hp: {
-      get total() {
-        return this.base_hp + this.armor + this.shield;
-      },
-      base_hp: 0,
-      armor: 0,
-      shield: 0
-    },
-    skills: [
-      {
-        img: "",
-        name: "",
-        desc: "",
-        flavor: ""
-      }
-    ]
-  },
-  {
     id: "zenyatta",
     name: "Zenyatta",
-    img: "",
+    img: `${fullZenyatta}`,
     role: "Support",
     flavor: "",
     hp: {
