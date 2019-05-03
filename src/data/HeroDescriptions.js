@@ -1,7 +1,5 @@
 import fullAna from "../images/FullImages/fullAna.png";
 import fullAshe from "../images/FullImages/fullAshe.png";
-import ana1 from "../images/SkillIcons/ana1.png";
-import ana3 from "../images/SkillIcons/ana3.png";
 import fullBaptiste from "../images/FullImages/fullBaptiste.png";
 import fullBastion from "../images/FullImages/fullBastion.png";
 import fullBrigitte from "../images/FullImages/fullBrigitte.png";
@@ -47,7 +45,8 @@ const HeroDescriptions = [
     },
     skills: [
       {
-        img: `${ana1}`,
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/thumb/f/fc/Ability-ana1.png/100px-Ability-ana1.png?version=1101920478ed5840a6a4d4698ee87951",
         name: "Biotic Rifle",
         desc:
           "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots.",
@@ -55,7 +54,8 @@ const HeroDescriptions = [
           "Ana's sharp shooting skills may ease your pain... or give you a headache"
       },
       {
-        img: "tba",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/58/Ability-ana2.png?version=ddddc400bb15ac26549dc1193fe6db9d",
         name: "Sleep Dart",
         desc:
           "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them).",
@@ -63,7 +63,8 @@ const HeroDescriptions = [
           "Nap time is an important part of every hero's day. Even if you're an enraged scientist from moon"
       },
       {
-        img: `${ana3}`,
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/0c/Ability-ana3.png?version=ba9a0fa814527eac0282a5c18c0d5ffe",
         name: "Biotic Grenade",
         desc:
           "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments.",
@@ -71,7 +72,8 @@ const HeroDescriptions = [
           "It's worth to cut down the enemies healing and focus them down as a team"
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/97/Ability-ana4.png?version=966233d09f58f30b5a8333307732b7ad",
         name: "Nano Boost",
         desc:
           "After Ana hits one of her allies with a combat boost, they deal more damage, and take less damage from enemies’ attacks.",
@@ -95,28 +97,32 @@ const HeroDescriptions = [
     },
     skills: [
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/4e/Ability-ashe1.png?version=916fec8c5997f96a7d06affc386d804d",
         name: "The Viper",
         desc:
           "Ashe's semi-automatic rifle fires quick shots, or she can use her aim-down sights for a more damaging, precise shot.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/da/Ability-ashe2.png?version=a7d69052583a9a10ece0760fb5939c59",
         name: "Dynamite",
         desc:
           "Ashe throws an explosive that detonates after a short delay or immediately when shot. The explosion from Dynamite also lights enemies on fire, dealing damage over time.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/8/85/Ability-ashe3.png?version=d03adba0120bb8a62c850edafef5c31c",
         name: "Coach Gun",
         desc:
           "Ashe blasts enemies in front of her, knocking them away and propelling herself backward for added mobility.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/7/7a/Ability-ashe4.png?version=f52f6bd4e92b8b3f6e85273fd593483e",
         name: "B.O.B",
         desc:
           "Ashe summons her trusted omnic sidekick, Bob, who charges forward and knocks enemies into the air, then lays down suppressing fire with his arm cannons.",
@@ -139,7 +145,8 @@ const HeroDescriptions = [
     },
     skills: [
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/26/Baptiste-ability1.png?version=048919c1052311cb03194c5b4c572d27",
         name: "Biotic Launcher",
         desc:
           "Baptiste’s three-round-burst Biotic Launcher rewards accuracy and recoil control with significant damage output. It also doubles as a healing device, lobbing projectiles that heal allies near the point of impact.",
@@ -147,7 +154,8 @@ const HeroDescriptions = [
         tip: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/b/b3/Baptiste-ability2.png?version=e0ef974ee5c547cf833d95c7dc979ada",
         name: "Regenerative Burst",
         desc:
           "Baptiste activates an intense regenerative burst that heals himself and nearby allies over time.",
@@ -155,7 +163,8 @@ const HeroDescriptions = [
         tip: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/8/8d/Baptiste-ability3.png?version=ffb7a5578ffc3bb630f0dae3d9274ddb",
         name: "Immortality Field",
         desc:
           "Baptiste uses a device to create a field that prevents allies from dying. The generator can be destroyed.",
@@ -164,7 +173,8 @@ const HeroDescriptions = [
         tip: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2d/Baptiste-ability4.png?version=083381313804f2ae2379ae0ec9bf436f",
         name: "Amplification Matrix",
         desc:
           "Baptiste creates a matrix that doubles the damage and healing effects of friendly projectiles that pass through it.",
@@ -172,7 +182,8 @@ const HeroDescriptions = [
         tip: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/e5/Baptiste-ability5.png?version=5251ffaec4e9faf57c26446cc6f46f9e",
         name: "Exo Boots",
         desc: "By first crouching, Baptiste can jump higher.",
         flavor: "",
@@ -196,35 +207,40 @@ const HeroDescriptions = [
     },
     skills: [
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/9a/Ability-bastion1.png?version=e635c31e99634cf3391232e74fcd5bb1",
         name: "Configuration: Reckon",
         desc:
           "In Recon mode, Bastion is fully mobile, outfitted with a submachine gun that fires steady bursts of bullets at medium range.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/fc/Ability-bastion2.png?version=2f6f296e016b5b68f4e951881169e90d",
         name: "Configuration: Sentry",
         desc:
           "In Sentry mode, Bastion is a stationary powerhouse equipped with a gatling gun capable of unleashing a hail of bullets. The gun's aim can be 'walked' across multiple targets, dealing devastating damage at short to medium range.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2e/Ability-bastion3.png?version=7ec9d59285b0ecb7293444d632a5743c",
         name: "Reconfigure",
         desc:
           "Bastion transforms between its two primary combat modes to adapt to battlefield conditions.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/24/Ability-bastion4.png?version=76a232bbfc34dc6f66807d36c6152b9e",
         name: "Self-Repair",
         desc:
           "Bastion restores its health; it cannot fire weapons while the repair process is in effect.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2e/Achievement_Charge%21.png?version=785b3d5f71e7d0cc90ca8c4a62b473dc",
         name: "Configuration: Tank",
         desc:
           "In Tank mode, Bastion extends wheeled treads and a powerful long-range cannon. The cannon’s explosive shells demolish targets in a wide blast radius, but Bastion can only remain in this mode for a limited time.",
@@ -248,42 +264,48 @@ const HeroDescriptions = [
     },
     skills: [
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/21/Rocket_Flail.png?version=4788641ae586d80f7f0d3c534692f4b9",
         name: "Rocket Flail",
         desc:
           "Brigitte's melee weapon has an extended range, enabling her to strike multiple enemies with a single swing.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/05/Repair_Pack.png?version=0334a66328c5750c4bcd0a125ee93cec",
         name: "Repair Pack",
         desc:
           "Brigitte throws a Repair Pack that can heal an ally. Any healing over that ally’s maximum health provides them with armor instead.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/6/69/Whip_Shot.png?version=6299115bfb36fbfef983d21fdfdc8c98",
         name: "Whip Shot",
         desc:
           "Brigitte throws her flail a long distance, dealing damage and knocking an enemy away from her.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/55/Barrier_Shield.png?version=a751995499df21974a770e1ab978dda2",
         name: "Barrier Shield",
         desc:
           "Brigitte deploys a frontal energy barrier to absorb a limited amount of damage.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/8/86/Shield_Bash.png?version=daea33251bac55a912f4671690bb74cf",
         name: "Shield Bash",
         desc:
           "Once her Barrier Shield is deployed, Brigitte can dash forward to stun an enemy.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/07/Rally.png?version=02398f616cf13ce86f8a19c0ebe491b9",
         name: "Rally",
         desc:
           "Brigitte moves faster and provides all nearby allies with armor that lasts until it’s removed by damage.",
@@ -307,48 +329,55 @@ const HeroDescriptions = [
     },
     skills: [
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/b/b9/Ability-dva1.png?version=cf8fb9988ebe47e0cd99b56baa26bbbf",
         name: "Fusion Cannons",
         desc:
           "D.Va's mech is equipped with twin short-range rotating cannons. They lay down continuous, high-damage fire without needing to reload, but slow D.Va’s movement while they’re active.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/09/Ability-dva5.png?version=3759628835846362023e1fc3eaddb1eb",
         name: "Light Gun",
         desc:
           "While outside of her mech, D.Va can continue the fight with a mid-range automatic blaster.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/59/Ability-dva2.png?version=98f517813f247f09b24b2c27c4dea308",
         name: "Boosters",
         desc:
           "D.Va’s mech launches into the air, her momentum carrying her forward. She can turn and change directions or barrel through her enemies, knocking them back.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/3a/Ability-dva3.png?version=22ae7c0dca6d821bf40435af49a9897f",
         name: "Defense Matrix",
         desc:
           "D.Va can maintain this forward-facing targeting array for a short period of time; while active, it'll stop incoming projectiles.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/1/17/Ability-dva7.png?version=61b4fe48451e2d9229f467f1d259bdd8",
         name: "Micro Missiles",
         desc: "D.Va launches a volley of explosive rockets.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/44/Ability-dva4.png?version=71e82d50b5daf22057d42adbbb876c9c",
         name: "Self-Desctruct",
         desc:
           "D.Va ejects from her mech and sets its reactor to explode, dealing massive damage to nearby opponents.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f0/Ability-dva6.png?version=be2b12a133c927cc39b736a055c8d2a1",
         name: "Call Mech",
         desc:
           "If her armored battle suit is destroyed, D.Va can call down a fresh mech and return to the fray.",
@@ -372,34 +401,39 @@ const HeroDescriptions = [
     },
     skills: [
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/b/bb/Hand_cannon.png?version=78942e9eded8fac0e7fd202b51189e0a",
         name: "Hand Cannon",
         desc:
           "Doomfist fires a short-range burst from the knuckles of his fist. Its ammunition is automatically regenerated over a short time.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/eb/Ability_Doomfist_Seismic_Slam.png?version=fb176f120c4eb1ddeb138b96421dd4b3",
         name: "Seismic Slam",
         desc:
           "Doomfist leaps forward and smashes into the ground, knocking nearby enemies toward him.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2c/Rising_uppercut.png?version=a5f84128951cf2b268c8bce6674c2f52",
         name: "Rising Uppercut",
         desc: "Doomfist uppercuts enemies in front of him into the air.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/ea/Rocket_punch.png?version=331f3d4f279b7dae16645d4fb0518578",
         name: "Rocket Punch",
         desc:
           "After charging up, Doomfist lunges forward and knocks an enemy back, dealing additional damage if they impact a wall.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/e7/Ability_Doomfist_Meteor_Strike.png?version=94d3b194418fb958dd98f9801569e83c",
         name: "Meteor Strike",
         desc:
           "Doomfist leaps into the sky, then crashes to the ground, dealing significant damage.",
@@ -423,28 +457,32 @@ const HeroDescriptions = [
     },
     skills: [
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/28/Ability-genji1.png?version=8fbbf43f427b9a5d5f4ade87f4262e1f",
         name: "Shuriken",
         desc:
           "Genji looses three deadly throwing stars in quick succession. Alternatively, he can throw three shuriken in a wider spread.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/7/70/Ability-genji2.png?version=6e64341f37239a9c81f63733ae6e9d1d",
         name: "Deflect",
         desc:
           "With lightning-quick swipes of his sword, Genji reflects an oncoming projectile and sends it rebounding towards his opponent.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/0/02/Ability-genji3.png?version=e41160acb4e35313adeca5d2d951ada2",
         name: "Swift Strike",
         desc:
           "Genji darts forward, slashing with his katana and passing through foes in his path. If Genji eliminates a target, he can instantly use this ability again.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/38/Ability-genji4.png?version=3e42a2b1535d69e4f34352defb671d24",
         name: "Dragonblade",
         desc:
           "Genji brandishes his katana for a brief period of time. Until he sheathes his sword, Genji can deliver killing strikes to any targets within his reach.",
@@ -468,34 +506,39 @@ const HeroDescriptions = [
     },
     skills: [
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/e3/Ability-hanzo1.png?version=c244a4820ffa175db24bf6a0a65353d4",
         name: "Storm Bow",
         desc: "Hanzo nocks and fires an arrow at his target.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/7/76/Ability-hanzo2.png?version=0b26b4ce875781bd0697ec2794758e71",
         name: "Sonic Arrow",
         desc:
           "Hanzo launches an arrow that contains a sonar tracking device. Any enemy within its detection radius is visibly marked, making them easier for Hanzo and his allies to hunt down.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/b/bd/Ability-hanzo03.png?version=8b4206815673ac4ee2ade8c4456af27d",
         name: "Storm Arrows",
         desc:
           "Hanzo’s next several arrows fire instantly, but at reduced damage.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/5/57/Ability-hanzo01.png?version=20525e4115afd14267a16ed54f0416cd",
         name: "Lunge",
         desc:
           "Hanzo can double jump, allowing him to change direction mid-jump.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/44/Ability-hanzo4.png?version=af720bce822f5d94fe1bc996ce3673ad",
         name: "Dragonstrike",
         desc:
           "Hanzo summons a Spirit Dragon which travels through the air in a line. It passes through walls in its way, devouring any enemies it encounters.",
@@ -519,36 +562,41 @@ const HeroDescriptions = [
     },
     skills: [
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/a/ab/Ability-Junkrat1.png?version=fc3cb2682995e4cbb31b57b0fdfda0ab",
         name: "Frag Launcher",
         desc:
           "Junkrat's Frag Launcher lobs grenades a significant distance. They bounce to reach their destination, and blow up when they strike an enemy.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/8/87/Ability-Junkrat2.png?version=62caaa89f5dda45592538ae9cad0070c",
         name: "Concussion Mine",
         desc:
           "After placing one of his homemade Concussion Mines, Junkrat can trigger it to damage enemies and send them flying... or propel himself through the air.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/9/9c/Ability-Junkrat3.png?version=b3da99c16e5768f084e2476845532b07",
         name: "Steel Trap",
         desc:
           "Junkrat tosses out a giant, metal-toothed trap. Should an enemy wander too close to the trap, it clamps on, injuring and immobilizing them.",
         flavor: ""
       },
       {
-        img: "",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/1/18/Ability-Junkrat4.png?version=b1e069ed228ee9e645553d36f60dd3d5",
         name: "Total Mayhem",
         desc:
           "Junkrat's deranged sense of humor persists past his death. If killed, he drops several live grenades.",
         flavor: ""
       },
       {
-        img: "",
-        name: "Rip-Tire",
+        img:
+          "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/32/Ability-Junkrat5.png?version=5cac861b6ad0784be4a4fbf3991a14f5",
+        name: "RIP-Tire",
         desc:
           "Junkrat revs up a motorized tire bomb and sends it rolling across the battlefield, climbing over walls and obstacles. He can remotely detonate the RIP-Tire to deal serious damage to enemies caught in the blast, or just wait for it to explode on its own.",
         flavor: ""
