@@ -10,10 +10,8 @@ const HeroShowcase = props => {
         <div className="skill-icon">
           <img src={item.img} />
         </div>
-        <div className="skill-name">
-          <h1>{item.name}</h1>
-        </div>
         <div className="skill-desc">
+          <h1>{item.name}</h1>
           <p>{item.desc}</p>
         </div>
         <div className="more-info">

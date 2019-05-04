@@ -16,8 +16,11 @@
 //Main hero info
 .main-info-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  border: 3px solid steelblue;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .hero-header {
@@ -49,12 +52,20 @@
 // Hero skill info
 .skill-info-grid {
   display: grid;
-  grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
-    "skill-icon skill-name"
-    "skill-icon skill-desc"
-    "more-info more-info";
+    "skill-icon"
+    "skill-desc"
+    "more-info";
+
+  @include medium {
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "skill-icon skill-desc"
+      "skill-icon skill-desc"
+      "skill-icon more-info";
+  }
 }
 
 .skill-icon {
@@ -63,26 +74,20 @@
   align-items: center;
   justify-content: center;
   border: $outline;
-}
-
-.skill-name {
-  grid-area: skill-name;
-  border: $outline;
-  @include italic;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  img {
+    width: 100px;
+    height: auto;
+  }
 }
 
 .skill-desc {
   grid-area: skill-desc;
-  font-size: 19px;
+  // bigger font size screws up layout
+  font-size: 16px;
   text-align: justify;
   padding: 0 10px;
-  border: $outline;
 }
 
 .more-info {
   grid-area: more-info;
-  border: $outline;
 }
