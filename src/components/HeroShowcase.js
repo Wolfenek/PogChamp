@@ -1,4 +1,5 @@
 import React from "react";
+import uuidv5 from "uuid";
 
 const HeroShowcase = props => {
   const { description } = props;
@@ -6,9 +7,9 @@ const HeroShowcase = props => {
 
   function showSkills() {
     return description[0].skills.map(item => (
-      <div className="skill-info-grid">
+      <div className="skill-info-grid" key={uuidv5()}>
         <div className="skill-icon">
-          <img src={item.img} />
+          <img src={item.img} alt="" />
         </div>
         <div className="skill-desc">
           <h1>{item.name}</h1>
@@ -24,14 +25,14 @@ const HeroShowcase = props => {
   }
 
   const content = description.map(({ id, name, img, role, hp }) => (
-    <>
+    <React.Fragment key={uuidv5()}>
       <div className="main-info-grid" key={id}>
         <div className="hero-header">
           <h1>{name}</h1>
           <h2>Role: {role}</h2>
         </div>
         <div>
-          <img src={img} />
+          <img src={img} alt="" />
         </div>
       </div>
       <ul className="list-inline">
@@ -41,7 +42,7 @@ const HeroShowcase = props => {
         <li>Shield: {hp.shield}</li>
       </ul>
       {showSkills()}
-    </>
+    </React.Fragment>
   ));
 
   return <div>{content}</div>;

@@ -19,7 +19,7 @@ const Heroes = () => {
     currentHero(e.currentTarget.id);
   };
 
-  function setCurrentDescription() {
+  const setCurrentDescription = () => {
     currentDescription(allDescriptions.filter(data => data.id === hero));
   }
 

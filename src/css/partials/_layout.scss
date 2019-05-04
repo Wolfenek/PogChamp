@@ -6,9 +6,9 @@
 .container {
   @extend .mx-auto;
   width: 100%;
-  @include medium {
-    max-width: 720px;
-  }
+  // @include medium {
+  //   max-width: 720px;
+  // }
   @include large {
     max-width: 960px;
   }
@@ -37,7 +37,6 @@
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
-  border: 4px solid steelblue;
 }
 
 .txt-center {

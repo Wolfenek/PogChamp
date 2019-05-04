@@ -2,7 +2,6 @@
   // max-height: 90vh;
   // overflow-y: scroll;
   background: $bg-color-alt;
-  border-right: 3px solid #041f3a;
   margin: 0;
   li {
     @include small {
@@ -57,7 +56,6 @@
     "skill-icon"
     "skill-desc"
     "more-info";
-
   @include medium {
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -73,10 +71,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: $outline;
+  border-top: 3px steelblue solid;
+  padding-top: 20px;
+  @include medium {
+    border: $outline;
+    padding: 0;
+  }
   img {
-    width: 100px;
+    width: 70px;
     height: auto;
+    @include medium {
+      width: 100px;
+      height: auto;
+    }
   }
 }
 
