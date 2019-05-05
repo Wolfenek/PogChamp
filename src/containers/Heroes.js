@@ -6,7 +6,6 @@ import HeroShowcase from "../components/HeroShowcase";
 
 const Heroes = () => {
   const [hero, currentHero] = useState("");
-  const [allDescriptions] = useState(HeroDescriptions);
   const [description, currentDescription] = useState(HeroDescriptions);
 
   useEffect(() => {
@@ -20,7 +19,7 @@ const Heroes = () => {
   };
 
   const setCurrentDescription = () => {
-    currentDescription(allDescriptions.filter(data => data.id === hero));
+    currentDescription(HeroDescriptions.filter(data => data.id === hero));
   }
 
   return (
