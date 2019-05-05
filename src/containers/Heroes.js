@@ -20,7 +20,7 @@ const Heroes = () => {
 
   const setCurrentDescription = () => {
     currentDescription(HeroDescriptions.filter(data => data.id === hero));
-  }
+  };
 
   return (
     <div className="row">

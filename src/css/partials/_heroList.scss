@@ -51,6 +51,11 @@
 // Hero skill info
 .skill-info-grid {
   display: grid;
+  border: steelblue solid;
+  border-width: 4px 4px 0;
+  &:last-child {
+    border-width: 4px 4px;
+  }
   grid-template-columns: 1fr;
   grid-template-areas:
     "skill-icon"
@@ -71,10 +76,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-top: 3px steelblue solid;
   padding-top: 20px;
   @include medium {
-    border: $outline;
+    border-right: $outline;
     padding: 0;
   }
   img {
