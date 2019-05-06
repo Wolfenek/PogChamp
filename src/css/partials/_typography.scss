@@ -1,1 +1,5 @@
 $font-set: "Rubik", sans-serif;
+
+@mixin italic {
+  font-style: italic;
+}

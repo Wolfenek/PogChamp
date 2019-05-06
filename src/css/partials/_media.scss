@@ -1,11 +1,3 @@
-@mixin column {
-  width: 100%;
-}
-
-@mixin italic {
-  font-style: italic;
-}
-
 // Media queries
 @mixin small {
   @media (min-width: 576px) {

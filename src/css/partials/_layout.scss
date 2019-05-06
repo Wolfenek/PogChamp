@@ -1,3 +1,7 @@
+@mixin column {
+  width: 100%;
+}
+
 .mx-auto {
   margin-right: auto;
   margin-left: auto;
@@ -27,11 +31,15 @@
   height: 100vh;
   padding-bottom: 5px;
   @include column;
-  flex: 0 0 80px;
-  max-width: 80px;
+  flex: 0 0 85px;
+  max-width: 85px;
   @include small {
-    flex: 0 0 160px;
-    max-width: 160px;
+    flex: 0 0 165px;
+    max-width: 165px;
+  }
+  @include medium {
+    flex: 0 0 245px;
+    max-width: 245px;
   }
 }
 
@@ -43,7 +51,10 @@
   flex-grow: 1;
   max-width: 100%;
   @include small {
-    margin-left: 165px;
+    margin-left: 170px;
+  }
+  @include medium {
+    margin-left: 250px;
   }
 }
 
