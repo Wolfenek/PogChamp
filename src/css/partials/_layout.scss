@@ -23,6 +23,9 @@
 }
 
 .col-heroes {
+  position: fixed;
+  height: 100vh;
+  padding-bottom: 5px;
   @include column;
   flex: 0 0 80px;
   max-width: 80px;
@@ -34,9 +37,14 @@
 
 .col-showcase {
   @include column;
+  position: relative;
+  margin-left: 85px;
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
+  @include small {
+    margin-left: 165px;
+  }
 }
 
 .txt-center {

@@ -1,7 +1,4 @@
 .hero-list {
-  // max-height: 90vh;
-  // overflow-y: scroll;
-  // background: $bg-color-alt;
   margin: 0;
   li {
     @include small {
@@ -12,6 +9,7 @@
     cursor: pointer;
   }
 }
+
 //Main hero info
 .main-info-grid {
   display: grid;

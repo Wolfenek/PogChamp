@@ -9,9 +9,11 @@ const Heroes = () => {
   const [description, currentDescription] = useState(HeroDescriptions);
 
   useEffect(() => {
-    console.log("Current hero is:", hero);
-    setCurrentDescription();
-    console.log("Description is", description);
+    if (hero) {
+      console.log("Current hero is:", hero);
+      setCurrentDescription();
+      console.log("Description is", description);
+    }
   }, [hero]);
 
   const setCurrentHero = e => {
@@ -19,24 +21,14 @@ const Heroes = () => {
   };
 
   const setCurrentDescription = () => {
+    window.scrollTo(0, 0);
     currentDescription(HeroDescriptions.filter(data => data.id === hero));
   };
 
   return (
     <div className="row">
       <div className="col-heroes">
-        <ul className="hero-list">
-          {/* map function below */}
-          {HeroImages.map(({ id, src, altTag }) => (
-            <HeroIcons
-              key={id}
-              id={id}
-              src={src}
-              altTag={altTag}
-              setCurrentHero={setCurrentHero}
-            />
-          ))}
-        </ul>
+        <HeroIcons HeroImages={HeroImages} setCurrentHero={setCurrentHero} />
       </div>
       <div className="col-showcase txt-center">
         {/* might need to only render HeroShowcase when the filter method is complete */}
