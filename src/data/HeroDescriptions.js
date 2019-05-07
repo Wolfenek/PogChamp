@@ -35,6 +35,7 @@ const HeroDescriptions = [
     name: "Ana",
     img: `${fullAna}`,
     role: "Support",
+    flavor: "Ana is a famous tea gourmet, and an excellent soldier",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -69,7 +70,7 @@ const HeroDescriptions = [
         desc:
           "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments.",
         flavor:
-          "It's worth to cut down the enemies healing and focus them down as a team"
+          "It's worth to cut down your enemies from healing and then focus them down as a team"
       },
       {
         img:
@@ -86,7 +87,7 @@ const HeroDescriptions = [
     name: "Ashe",
     img: `${fullAshe}`,
     role: "Damage",
-    flavor: "",
+    flavor: "If Ashe can't get something... BOB will get it for her",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -102,7 +103,8 @@ const HeroDescriptions = [
         name: "The Viper",
         desc:
           "Ashe's semi-automatic rifle fires quick shots, or she can use her aim-down sights for a more damaging, precise shot.",
-        flavor: ""
+        flavor:
+          "It takes some time to reload. Meanwhile you may drink a cup of Ana's tea."
       },
       {
         img:
@@ -110,7 +112,7 @@ const HeroDescriptions = [
         name: "Dynamite",
         desc:
           "Ashe throws an explosive that detonates after a short delay or immediately when shot. The explosion from Dynamite also lights enemies on fire, dealing damage over time.",
-        flavor: ""
+        flavor: "Fire in the hole! Wait, that isn't Ashe's line..."
       },
       {
         img:
@@ -118,7 +120,7 @@ const HeroDescriptions = [
         name: "Coach Gun",
         desc:
           "Ashe blasts enemies in front of her, knocking them away and propelling herself backward for added mobility.",
-        flavor: ""
+        flavor: "This device will send you flying"
       },
       {
         img:
@@ -126,7 +128,8 @@ const HeroDescriptions = [
         name: "B.O.B",
         desc:
           "Ashe summons her trusted omnic sidekick, Bob, who charges forward and knocks enemies into the air, then lays down suppressing fire with his arm cannons.",
-        flavor: ""
+        flavor:
+          "Ashe normally sends him to do something. This could mean a walk to the bakery"
       }
     ]
   },
@@ -135,6 +138,7 @@ const HeroDescriptions = [
     name: "Baptiste",
     img: `${fullBaptiste}`,
     role: "Support",
+    flavor: "He can jump high, and he won't let you die!",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -150,8 +154,7 @@ const HeroDescriptions = [
         name: "Biotic Launcher",
         desc:
           "Baptiste’s three-round-burst Biotic Launcher rewards accuracy and recoil control with significant damage output. It also doubles as a healing device, lobbing projectiles that heal allies near the point of impact.",
-        flavor: "",
-        tip: ""
+        flavor: "Arching, healing projectiles for the rescue"
       },
       {
         img:
@@ -159,8 +162,7 @@ const HeroDescriptions = [
         name: "Regenerative Burst",
         desc:
           "Baptiste activates an intense regenerative burst that heals himself and nearby allies over time.",
-        flavor: "",
-        tip: ""
+        flavor: "Everyone should take a breather"
       },
       {
         img:
@@ -169,8 +171,7 @@ const HeroDescriptions = [
         desc:
           "Baptiste uses a device to create a field that prevents allies from dying. The generator can be destroyed.",
         flavor:
-          "You wanted to bid farewell... But the lamp saved you once again",
-        tip: ""
+          "You wanted to bid farewell... But the lamp saved you once again"
       },
       {
         img:
@@ -178,16 +179,14 @@ const HeroDescriptions = [
         name: "Amplification Matrix",
         desc:
           "Baptiste creates a matrix that doubles the damage and healing effects of friendly projectiles that pass through it.",
-        flavor: "",
-        tip: ""
+        flavor: "The ultimate window of opportunity"
       },
       {
         img:
           "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/e5/Baptiste-ability5.png?version=5251ffaec4e9faf57c26446cc6f46f9e",
         name: "Exo Boots",
         desc: "By first crouching, Baptiste can jump higher.",
-        flavor: "",
-        tip: ""
+        flavor: "No highground's unreachable"
       }
     ]
   },
@@ -196,7 +195,7 @@ const HeroDescriptions = [
     name: "Bastion",
     img: `${fullBastion}`,
     role: "Damage",
-    flavor: "",
+    flavor: "He could be your worst enemy... or your best robro",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -212,7 +211,8 @@ const HeroDescriptions = [
         name: "Configuration: Reckon",
         desc:
           "In Recon mode, Bastion is fully mobile, outfitted with a submachine gun that fires steady bursts of bullets at medium range.",
-        flavor: ""
+        flavor:
+          "The curious Bastion likes to explore the world. He likes to stay safe at all times"
       },
       {
         img:
@@ -220,7 +220,8 @@ const HeroDescriptions = [
         name: "Configuration: Sentry",
         desc:
           "In Sentry mode, Bastion is a stationary powerhouse equipped with a gatling gun capable of unleashing a hail of bullets. The gun's aim can be 'walked' across multiple targets, dealing devastating damage at short to medium range.",
-        flavor: ""
+        flavor:
+          "When tired from exploration, he likes to sit down and have some fun"
       },
       {
         img:
@@ -228,7 +229,7 @@ const HeroDescriptions = [
         name: "Reconfigure",
         desc:
           "Bastion transforms between its two primary combat modes to adapt to battlefield conditions.",
-        flavor: ""
+        flavor: "The flexible robro"
       },
       {
         img:
@@ -236,7 +237,7 @@ const HeroDescriptions = [
         name: "Self-Repair",
         desc:
           "Bastion restores its health; it cannot fire weapons while the repair process is in effect.",
-        flavor: ""
+        flavor: "Self-maintenance keeps the rust away"
       },
       {
         img:
@@ -244,7 +245,7 @@ const HeroDescriptions = [
         name: "Configuration: Tank",
         desc:
           "In Tank mode, Bastion extends wheeled treads and a powerful long-range cannon. The cannon’s explosive shells demolish targets in a wide blast radius, but Bastion can only remain in this mode for a limited time.",
-        flavor: ""
+        flavor: "Team: We need a tank! Bastion player: I have you covered!"
       }
     ]
   },
@@ -253,7 +254,7 @@ const HeroDescriptions = [
     name: "Brigitte",
     img: `${fullBrigitte}`,
     role: "Support",
-    flavor: "",
+    flavor: "She likes cats, she's also a good brawler",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -269,7 +270,7 @@ const HeroDescriptions = [
         name: "Rocket Flail",
         desc:
           "Brigitte's melee weapon has an extended range, enabling her to strike multiple enemies with a single swing.",
-        flavor: ""
+        flavor: "The coolest way to play a first person shooter game"
       },
       {
         img:
@@ -277,7 +278,7 @@ const HeroDescriptions = [
         name: "Repair Pack",
         desc:
           "Brigitte throws a Repair Pack that can heal an ally. Any healing over that ally’s maximum health provides them with armor instead.",
-        flavor: ""
+        flavor: "Papa Torb tought her daugher some tricks"
       },
       {
         img:
@@ -285,7 +286,7 @@ const HeroDescriptions = [
         name: "Whip Shot",
         desc:
           "Brigitte throws her flail a long distance, dealing damage and knocking an enemy away from her.",
-        flavor: ""
+        flavor: "Protecting your private sphere from obtrusive enemies"
       },
       {
         img:
@@ -293,7 +294,7 @@ const HeroDescriptions = [
         name: "Barrier Shield",
         desc:
           "Brigitte deploys a frontal energy barrier to absorb a limited amount of damage.",
-        flavor: ""
+        flavor: "I'm the tankiest of supports"
       },
       {
         img:
@@ -301,7 +302,7 @@ const HeroDescriptions = [
         name: "Shield Bash",
         desc:
           "Once her Barrier Shield is deployed, Brigitte can dash forward to stun an enemy.",
-        flavor: ""
+        flavor: "Excellent at interrupting ultimate abilities"
       },
       {
         img:
@@ -309,7 +310,7 @@ const HeroDescriptions = [
         name: "Rally",
         desc:
           "Brigitte moves faster and provides all nearby allies with armor that lasts until it’s removed by damage.",
-        flavor: ""
+        flavor: "Rally to her, if you hear it... Like, really do it!"
       }
     ]
   },

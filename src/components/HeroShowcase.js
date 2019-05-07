@@ -15,20 +15,19 @@ const HeroShowcase = ({ description }) => {
           <p>{item.desc}</p>
         </div>
         <div className="more-info">
-          <ul className="list-inline">
-            <li>{item.flavor}</li>
-          </ul>
+          <p className="flavor-text">{item.flavor}</p>
         </div>
       </div>
     ));
   };
 
-  const content = description.map(({ id, name, img, role, hp }) => (
+  const content = description.map(({ id, name, img, role, flavor, hp }) => (
     <React.Fragment key={uuidv5()}>
       <div className="main-info-grid" key={id}>
         <div className="hero-header">
           <h1>{name}</h1>
           <h2>Role: {role}</h2>
+          <p className="flavor-text">{flavor}</p>
         </div>
         <div>
           <img src={img} alt="" />

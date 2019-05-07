@@ -14,10 +14,6 @@ const Heroes = () => {
     }
   }, [hero]);
 
-  useEffect(() => {
-    returnHeroShowcase();
-  }, [description]);
-
   const setCurrentHero = e => {
     currentHero(e.currentTarget.id);
   };
@@ -27,6 +23,7 @@ const Heroes = () => {
   };
 
   const returnHeroShowcase = () => {
+    window.scrollTo(0, 0);
     return <HeroShowcase description={description} />;
   };
 
