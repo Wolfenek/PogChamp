@@ -1,15 +1,3 @@
-.hero-list {
-  margin: 0;
-  li {
-    @include small {
-      display: inline;
-    }
-  }
-  img {
-    cursor: pointer;
-  }
-}
-
 //Main hero info
 .main-info-grid {
   display: grid;
@@ -99,4 +87,8 @@
 
 .more-info {
   grid-area: more-info;
+}
+
+.icon-grid {
+  border: 4px solid yellowgreen;
 }

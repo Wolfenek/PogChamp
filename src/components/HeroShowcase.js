@@ -1,11 +1,10 @@
 import React from "react";
 import uuidv5 from "uuid";
 
-const HeroShowcase = props => {
-  const { description } = props;
+const HeroShowcase = ({ description }) => {
   console.log("from away", description);
 
-  function showSkills() {
+  const showSkills = () => {
     return description[0].skills.map(item => (
       <div className="skill-info-grid" key={uuidv5()}>
         <div className="skill-icon">
@@ -22,7 +21,7 @@ const HeroShowcase = props => {
         </div>
       </div>
     ));
-  }
+  };
 
   const content = description.map(({ id, name, img, role, hp }) => (
     <React.Fragment key={uuidv5()}>

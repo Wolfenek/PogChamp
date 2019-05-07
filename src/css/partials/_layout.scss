@@ -10,36 +10,32 @@
 .container {
   @extend .mx-auto;
   width: 100%;
-  // @include medium {
-  //   max-width: 720px;
-  // }
   @include large {
-    max-width: 960px;
+    max-width: 1000px;
   }
   @include xl {
-    max-width: 1140px;
+    max-width: 1200px;
   }
 }
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  // flex-wrap: wrap;
 }
 
 .col-heroes {
-  position: fixed;
-  height: 100vh;
-  padding-bottom: 5px;
   @include column;
-  flex: 0 0 85px;
+  position: fixed;
+  height: 100%;
+  // flex: 0 0 85px;
   max-width: 85px;
   @include small {
-    flex: 0 0 165px;
+    // flex: 0 0 165px;
     max-width: 165px;
   }
   @include medium {
-    flex: 0 0 245px;
-    max-width: 245px;
+    // flex: 0 0 275px;
+    max-width: 275px;
   }
 }
 
@@ -47,14 +43,28 @@
   @include column;
   position: relative;
   margin-left: 85px;
-  flex-basis: 0;
-  flex-grow: 1;
-  max-width: 100%;
+  // flex-basis: 0;
+  // flex-grow: 1;
+  // max-width: 100%;
   @include small {
     margin-left: 170px;
   }
   @include medium {
-    margin-left: 250px;
+    margin-left: 300px;
+  }
+}
+
+.hero-list {
+  display: flex;
+  flex-wrap: wrap;
+  img {
+    cursor: pointer;
+    &:hover {
+      background-color: $bg-color-alt;
+    }
+    @include medium {
+      margin: 5px;
+    }
   }
 }
 

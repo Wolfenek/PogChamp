@@ -10,9 +10,7 @@ const Heroes = () => {
 
   useEffect(() => {
     if (hero) {
-      console.log("Current hero is:", hero);
       setCurrentDescription();
-      console.log("Description is", description);
     }
   }, [hero]);
 
@@ -21,8 +19,12 @@ const Heroes = () => {
   };
 
   const setCurrentDescription = () => {
-    window.scrollTo(0, 0);
     currentDescription(HeroDescriptions.filter(data => data.id === hero));
+  };
+
+  const returnHeroShowcase = () => {
+    window.scrollTo(0, 0);
+    return <HeroShowcase description={description} />;
   };
 
   return (
@@ -33,7 +35,7 @@ const Heroes = () => {
       <div className="col-showcase txt-center">
         {/* might need to only render HeroShowcase when the filter method is complete */}
         {hero ? (
-          <HeroShowcase description={description} />
+          returnHeroShowcase()
         ) : (
           <h2>Select heroes on the left to view info about them</h2>
         )}
