@@ -59,6 +59,7 @@
   flex-wrap: wrap;
   img {
     cursor: pointer;
+    transition: background-color 300ms ease-in-out;
     &:hover {
       background-color: $bg-color-alt;
     }
