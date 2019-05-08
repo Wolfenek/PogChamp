@@ -35,7 +35,7 @@ const HeroDescriptions = [
     name: "Ana",
     img: `${fullAna}`,
     role: "Support",
-    flavor: "Ana is a famous tea gourmet, and an excellent soldier",
+    flavor: "Ana is a famous tea gourmet. And an excellent soldier",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -51,7 +51,7 @@ const HeroDescriptions = [
         name: "Biotic Rifle",
         desc:
           "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots.",
-        flavor: "Ana's biotic rifle may ease your pain... or put you in danger."
+        flavor: "Ana's biotic rifle may heal your wounds... or bring you pain."
       },
       {
         img:
@@ -103,7 +103,7 @@ const HeroDescriptions = [
         desc:
           "Ashe's semi-automatic rifle fires quick shots, or she can use her aim-down sights for a more damaging, precise shot.",
         flavor:
-          "In the time it takes to reaload, you could drink a cup of tea with Ana."
+          "In the time needed to reload this, you could drink a cup of tea with Ana."
       },
       {
         img:
@@ -228,7 +228,7 @@ const HeroDescriptions = [
         name: "Reconfigure",
         desc:
           "Bastion transforms between its two primary combat modes to adapt to battlefield conditions.",
-        flavor: "The flexible robro."
+        flavor: "The flexible siege automaton."
       },
       {
         img:
@@ -739,7 +739,7 @@ const HeroDescriptions = [
         desc:
           "Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.",
         flavor:
-          "Mei doesn't reccomend this technique for stopping your aging process."
+          "Mei doesn't reccomend this technique if you wish to stop your aging process."
       },
       {
         img:
@@ -780,7 +780,7 @@ const HeroDescriptions = [
         name: "Caduceus Staff",
         desc:
           "Mercy engages one of two beams that connect to an ally. By maintaining the beams, she can either restore that ally’s health or increase the amount of damage they deal.",
-        flavor: "Please pocket me Mercy!"
+        flavor: "Please pocket me, Mercy!"
       },
       {
         img:
@@ -1140,7 +1140,7 @@ const HeroDescriptions = [
         name: "Whole Hog",
         desc:
           "After cramming a top-loader onto his Scrap Gun, Roadhog pours in ammo. For a short time, he can crank out a stream of shrapnel that knocks back enemies.",
-        flavor: "Fill your gun with a ton of junk a go wild!"
+        flavor: "Fill your gun with a ton of junk and go wild!"
       }
     ]
   },
@@ -1267,7 +1267,8 @@ const HeroDescriptions = [
     name: "Symmetra",
     img: `${fullSymmetra}`,
     role: "Damage",
-    flavor: "",
+    flavor:
+      "Symmetra's unusual combat techniques are a result of her ability to utilize hard-light technology.",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1283,7 +1284,8 @@ const HeroDescriptions = [
         name: "Photon Projector",
         desc:
           "Symmetra’s weapon emits a ranged beam. It deals continuous damage that increases the longer it is connected. The projector can also release an explosive energy ball that deals high damage on contact.",
-        flavor: ""
+        flavor:
+          "The level 3 beam can become a laser of destruction. Back in the days, this ability used to auto-aim, but Blizzard decided it was time to stop."
       },
       {
         img:
@@ -1291,7 +1293,7 @@ const HeroDescriptions = [
         name: "Sentry Turret",
         desc:
           "Symmetra launches a small turret that automatically fires speed-reducing blasts at the nearest enemy within range. Up to three turrets can be built on the battlefield at once.",
-        flavor: ""
+        flavor: "Setting up the car wash."
       },
       {
         img:
@@ -1299,7 +1301,8 @@ const HeroDescriptions = [
         name: "Teleporter",
         desc:
           "Symmetra places a temporary teleporter exit pad at a distance and connects it to a teleporter entry pad at her current location. Allies (and some of their abilities, such as Junkrat’s RIP-Tire) can travel from the entry pad to the exit pad instantly.",
-        flavor: ""
+        flavor:
+          "One of the funkiest abilities in the game. Teleported Bastions or DV.a bombs can now surprise foes even more."
       },
       {
         img:
@@ -1307,7 +1310,8 @@ const HeroDescriptions = [
         name: "Photon Barrier",
         desc:
           "Symmetra deploys a massive energy barrier which prevents ranged attacks and is big enough to cut through the entire map.",
-        flavor: ""
+        flavor:
+          "It can protect you from adversaries. But be careful, Sombra knows how to deal with this..."
       }
     ]
   },
@@ -1316,7 +1320,7 @@ const HeroDescriptions = [
     name: "Torbjörn",
     img: `${fullTorbjörn}`,
     role: "Damage",
-    flavor: "",
+    flavor: "The iconic short stocky engineer and his turret.",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1332,7 +1336,8 @@ const HeroDescriptions = [
         name: "Rivet Gun",
         desc:
           "Torbjörn fires rivets at long range or ejects molten metal from his gun in a short, close-range burst.",
-        flavor: ""
+        flavor:
+          "Reinhardt to Torbjörn: Well done, my diminutive Swedish friend!"
       },
       {
         img:
@@ -1340,7 +1345,8 @@ const HeroDescriptions = [
         name: "Forge Hammer",
         desc:
           "This multipurpose hammer repairs turrets and, in a pinch, can also be used as a weapon.",
-        flavor: ""
+        flavor:
+          "Back in the old times, master Torb players would hammer a wall, while the turret would get them the Play of the Game."
       },
       {
         img:
@@ -1348,7 +1354,8 @@ const HeroDescriptions = [
         name: "Deploy Turret",
         desc:
           "Torbjörn deploys a self-building turret which automatically tracks and attacks enemies.",
-        flavor: ""
+        flavor:
+          "This bad boy is his best friend. It auto-shoots, and makes papa Torb proud."
       },
       {
         img:
@@ -1356,7 +1363,7 @@ const HeroDescriptions = [
         name: "Overload",
         desc:
           "Torbjörn gains additional armor as well as improved attack, movement, and reload speed for a brief period.",
-        flavor: ""
+        flavor: "The cheeky builder becomes even more powerful and nimble."
       },
       {
         img:
@@ -1364,7 +1371,8 @@ const HeroDescriptions = [
         name: "Molten Core",
         desc:
           "Torbjörn creates pools of molten slag that deal massive, sustained damage (plus bonus damage to armor), and can prevent enemies from moving through key locations.",
-        flavor: ""
+        flavor:
+          "The ultimate goo dispenser, and a pinch of Splatoon in Overwatch."
       }
     ]
   },
@@ -1373,7 +1381,7 @@ const HeroDescriptions = [
     name: "Tracer",
     img: `${fullTracer}`,
     role: "Damage",
-    flavor: "",
+    flavor: "It's T-Racer! The one from the front cover",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1388,7 +1396,7 @@ const HeroDescriptions = [
           "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/ff/Ability-tracer1.png?version=0d52f1f48dc75ac72bdc568f3b1e7887",
         name: "Pulse Pistols",
         desc: "Tracer rapid-fires both of her pistols.",
-        flavor: ""
+        flavor: "She shoots, she scores."
       },
       {
         img:
@@ -1396,7 +1404,7 @@ const HeroDescriptions = [
         name: "Blink",
         desc:
           "Tracer zips horizontally through space in the direction she’s moving, and reappears several yards away. She stores up to three charges of the blink ability and generates more every few seconds.",
-        flavor: ""
+        flavor: "The source of Tracer's astounding mobility and nimbleness."
       },
       {
         img:
@@ -1404,7 +1412,7 @@ const HeroDescriptions = [
         name: "Recall",
         desc:
           "Tracer bounds backward in time, returning her health, ammo and position on the map to precisely where they were a few seconds before.",
-        flavor: ""
+        flavor: "If you screw up, press 'E' for a second chance."
       },
       {
         img:
@@ -1412,7 +1420,7 @@ const HeroDescriptions = [
         name: "Pulse Bomb",
         desc:
           "Tracer lobs a large bomb that adheres to any surface or unfortunate opponent it lands on. After a brief delay, the bomb explodes, dealing high damage to all enemies within its blast radius.",
-        flavor: ""
+        flavor: "Wait for it... oh, it's 300 damage now."
       }
     ]
   },
@@ -1421,7 +1429,7 @@ const HeroDescriptions = [
     name: "Widowmaker",
     img: `${fullWidowmaker}`,
     role: "Damage",
-    flavor: "",
+    flavor: "Playing Windowmaker will put your aim to the test.",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1437,7 +1445,7 @@ const HeroDescriptions = [
         name: "Widow's Kiss",
         desc:
           "Widowmaker’s versatile sniper rifle is ideal for scope-aimed shots at distant targets. Should targets close to medium range, the rifle can also be fired in fully-automatic mode.",
-        flavor: ""
+        flavor: "Don't argue with Widowmaker. You might lose face."
       },
       {
         img:
@@ -1445,7 +1453,7 @@ const HeroDescriptions = [
         name: "Grappling Hook",
         desc:
           "Widowmaker launches a grappling hook towards the location she’s aiming at – when the hook connects with a scalable surface, she’s quickly drawn towards it, allowing her to expand her view of the battlefield and evade or flank targets.",
-        flavor: ""
+        flavor: "Smooth as silk."
       },
       {
         img:
@@ -1453,7 +1461,8 @@ const HeroDescriptions = [
         name: "Venom Mine",
         desc:
           "Widowmaker adheres a swiftly-arming venom mine to nearly any surface. When a target wanders within range of the mine’s motion trigger, it explodes, delivering poison gas to any enemies in the vicinity.",
-        flavor: ""
+        flavor:
+          "Often used by Widow as an alarm device. She wants to know when someone enters her territory."
       },
       {
         img:
@@ -1461,7 +1470,7 @@ const HeroDescriptions = [
         name: "Infra-Sight",
         desc:
           "Widowmaker’s recon visor allows her to see the heat signatures of her targets through walls and objects for a moderate amount of time. This enhanced vision is shared with her allies.",
-        flavor: ""
+        flavor: "No one can hide from her sights."
       }
     ]
   },
@@ -1470,7 +1479,7 @@ const HeroDescriptions = [
     name: "Winston",
     img: `${fullWinston}`,
     role: "Tank",
-    flavor: "",
+    flavor: "It's not a monkey! It's a scientist!",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1486,7 +1495,8 @@ const HeroDescriptions = [
         name: "Tesla Cannon",
         desc:
           "Winston’s weapon fires a short-range electric barrage for as long as he holds down the trigger.",
-        flavor: ""
+        flavor:
+          "You don't need to aim this very well. It's not too strong, but it's AoE damage and it's electrifying."
       },
       {
         img:
@@ -1494,7 +1504,7 @@ const HeroDescriptions = [
         name: "Jump Pack",
         desc:
           "Assisted by his energy pack, Winston lunges through the air, dealing significant damage and staggering nearby enemies when he lands.",
-        flavor: ""
+        flavor: "Being able to jump with Winston means a lot of fun!."
       },
       {
         img:
@@ -1502,7 +1512,7 @@ const HeroDescriptions = [
         name: "Barrier Projector",
         desc:
           "Winston’s barrier projector extends a bubble-shaped field that absorbs damage until it's destroyed. Allies protected by the barrier can return fire from within it.",
-        flavor: ""
+        flavor: "Blocking D.Va bombs just in time!"
       },
       {
         img:
@@ -1510,7 +1520,8 @@ const HeroDescriptions = [
         name: "Primal Rage",
         desc:
           "Winston embraces his animal nature, significantly boosting his health and making him very difficult to kill, strengthening his melee attack, and allowing him to use his Jump Pack ability more frequently. While raging, Winston can only make melee and Jump Pack attacks.",
-        flavor: ""
+        flavor:
+          "No wonder he freaked out after some weirdo stepped on his glasses."
       }
     ]
   },
@@ -1519,7 +1530,7 @@ const HeroDescriptions = [
     name: "Wrecking Ball",
     img: `${fullWreckingBall}`,
     role: "Tank",
-    flavor: "",
+    flavor: "A hamster rolling around in a ball. Super mobile and fast.",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1535,7 +1546,8 @@ const HeroDescriptions = [
         name: "Quad Cannons",
         desc:
           "Wrecking Ball’s automatic assault cannons tear apart threats at medium range.",
-        flavor: ""
+        flavor:
+          "Instead of realoading these guns, you might wanna spend 2 seconds in ball form."
       },
       {
         img:
@@ -1543,7 +1555,7 @@ const HeroDescriptions = [
         name: "Roll",
         desc:
           "Wrecking Ball transforms into a ball, increasing his maximum movement speed.",
-        flavor: ""
+        flavor: "They see me rollin'... They hatin'..."
       },
       {
         img:
@@ -1551,7 +1563,7 @@ const HeroDescriptions = [
         name: "Grappling Claw",
         desc:
           "Wrecking Ball launches a grappling claw, enabling him to anchor to an area and swing from it. If he strikes an enemy with a powered-up swing, they’re damaged and knocked back.",
-        flavor: ""
+        flavor: "Reaching areas beyond imagination."
       },
       {
         img:
@@ -1559,7 +1571,8 @@ const HeroDescriptions = [
         name: "Adaptive Shield",
         desc:
           "Wrecking Ball’s temporary personal shields absorb damage, providing stronger defenses if more opponents are nearby.",
-        flavor: ""
+        flavor:
+          "A powerful defensive ability. Wrecking Ball can gain a ridiculous amount of extra health."
       },
       {
         img:
@@ -1567,7 +1580,8 @@ const HeroDescriptions = [
         name: "Piledriver",
         desc:
           "Wrecking Ball slams onto the ground below, damaging enemies and launching them upward.",
-        flavor: ""
+        flavor:
+          "Dropping from above. Probably the most imporant offensive skill of the hamster."
       },
       {
         img:
@@ -1575,7 +1589,7 @@ const HeroDescriptions = [
         name: "Minefield",
         desc:
           "Wrecking Ball deploys a field of long-lasting proximity mines which explode on contact with enemies.",
-        flavor: ""
+        flavor: "Mines? They explode? What else does he hide in that mech?"
       }
     ]
   },
@@ -1584,7 +1598,7 @@ const HeroDescriptions = [
     name: "Zarya",
     img: `${fullZarya}`,
     role: "Tank",
-    flavor: "",
+    flavor: "A strong weight-lifting soldier from Russia",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1600,7 +1614,8 @@ const HeroDescriptions = [
         name: "Particle Cannon",
         desc:
           "Zarya’s mighty Particle Cannon unleashes a short-range beam of destructive energy. Alternatively, Zarya can lob an explosive charge to strike multiple opponents.",
-        flavor: ""
+        flavor:
+          "Beams cannot be blocked by defense matrix, nor deflected by Genji."
       },
       {
         img:
@@ -1608,7 +1623,7 @@ const HeroDescriptions = [
         name: "Particle Barrier",
         desc:
           "The Particle Cannon can emit a personal barrier that shields Zarya against incoming attacks, redirecting their energy to enhance her weapon’s damage and the width of its beam.",
-        flavor: ""
+        flavor: "C'mon, try to damage her! She will become even stronger."
       },
       {
         img:
@@ -1616,7 +1631,7 @@ const HeroDescriptions = [
         name: "Projected Barrier",
         desc:
           "Zarya surrounds one of her teammates with an energy barrier that simultaneously absorbs fire and boosts the power of her Particle Cannon.",
-        flavor: ""
+        flavor: "Zarya's bubble saved your life. Once again."
       },
       {
         img:
@@ -1624,7 +1639,8 @@ const HeroDescriptions = [
         name: "Graviton Surge",
         desc:
           "Zarya launches a gravity bomb that draws in enemy combatants and deals damage while they’re trapped.",
-        flavor: ""
+        flavor:
+          "When you're caught in this, and you hear Japanese, you know you're in trouble."
       }
     ]
   },
@@ -1633,7 +1649,7 @@ const HeroDescriptions = [
     name: "Zenyatta",
     img: `${fullZenyatta}`,
     role: "Support",
-    flavor: "",
+    flavor: "A floating cyber monk who will throw some balls at you",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1649,7 +1665,8 @@ const HeroDescriptions = [
         name: "Orb Of Destruction",
         desc:
           "Zenyatta projects his destructive energy orbs either individually, or in a rapid-fire volley after a few seconds spent gathering power.",
-        flavor: ""
+        flavor:
+          "They serve as a constant stream of damage. Extra powerful if five of them are thrown at en unexpecting foe."
       },
       {
         img:
@@ -1657,7 +1674,8 @@ const HeroDescriptions = [
         name: "Orb Of Harmony",
         desc:
           "Zenyatta casts an orb over the shoulder of a targeted ally. So long as Zenyatta maintains line of sight, the orb slowly restores health to his ally. Only one ally can receive the orb's benefit at a time.",
-        flavor: ""
+        flavor:
+          "The healing orb eases your pain and supports you on the battlefield."
       },
       {
         img:
@@ -1665,7 +1683,8 @@ const HeroDescriptions = [
         name: "Orb Of Discord",
         desc:
           "Attaching the orb of discord to an opponent amplifies the amount of damage they receive for as long as Zenyatta maintains line of sight. Only one opponent can suffer the orb's effects at a time.",
-        flavor: ""
+        flavor:
+          "The enemy marked by this can become easy prey for a coordinated team."
       },
       {
         img:
@@ -1673,7 +1692,8 @@ const HeroDescriptions = [
         name: "Transcendence",
         desc:
           "Zenyatta enters a state of heightened existence for a short period of time. While transcendent, Zenyatta cannot use abilities or weapons, but is immune to damage and automatically restores his health and that of nearby allies.",
-        flavor: ""
+        flavor:
+          "Experience Zen's soothing tranquility. And avoid Ana's biotic grenade at all cost."
       }
     ]
   }
