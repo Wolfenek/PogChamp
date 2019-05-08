@@ -51,8 +51,7 @@ const HeroDescriptions = [
         name: "Biotic Rifle",
         desc:
           "Ana’s rifle shoots darts that can restore health to her allies or deal ongoing damage to her enemies. She can use the rifle’s scope to zoom in on targets and make highly accurate shots.",
-        flavor:
-          "Ana's sharp shooting skills may ease your pain... or give you a headache"
+        flavor: "Ana's biotic rifle may ease your pain... or put you in danger."
       },
       {
         img:
@@ -61,7 +60,7 @@ const HeroDescriptions = [
         desc:
           "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them).",
         flavor:
-          "Nap time is an important part of every hero's day. Even if you're an enraged scientist from moon"
+          "Nap time is an important part of every hero's day. Even if you're an enraged scientist from moon."
       },
       {
         img:
@@ -70,7 +69,7 @@ const HeroDescriptions = [
         desc:
           "Ana tosses a biotic bomb that deals damage to enemies and heals allies in a small area of effect. Affected allies briefly receive increased healing from all sources, while enemies caught in the blast cannot be healed for a few moments.",
         flavor:
-          "It's worth to cut down your enemies from healing and then focus them down as a team"
+          "It's worth to cut off your enemies from healing and then focus them down as a team."
       },
       {
         img:
@@ -78,7 +77,7 @@ const HeroDescriptions = [
         name: "Nano Boost",
         desc:
           "After Ana hits one of her allies with a combat boost, they deal more damage, and take less damage from enemies’ attacks.",
-        flavor: "Lucio secretly dreams of becoming nano-boosted by Ana"
+        flavor: "Lucio secretly dreams of being nano-boosted by Ana."
       }
     ]
   },
@@ -104,7 +103,7 @@ const HeroDescriptions = [
         desc:
           "Ashe's semi-automatic rifle fires quick shots, or she can use her aim-down sights for a more damaging, precise shot.",
         flavor:
-          "It takes some time to reload. Meanwhile you may drink a cup of Ana's tea."
+          "In the time it takes to reaload, you could drink a cup of tea with Ana."
       },
       {
         img:
@@ -120,7 +119,7 @@ const HeroDescriptions = [
         name: "Coach Gun",
         desc:
           "Ashe blasts enemies in front of her, knocking them away and propelling herself backward for added mobility.",
-        flavor: "This device will send you flying"
+        flavor: "This gun will send you flying."
       },
       {
         img:
@@ -129,7 +128,7 @@ const HeroDescriptions = [
         desc:
           "Ashe summons her trusted omnic sidekick, Bob, who charges forward and knocks enemies into the air, then lays down suppressing fire with his arm cannons.",
         flavor:
-          "Ashe normally sends him to do something. This could mean a walk to the bakery"
+          "Ashe normally sends him to do something. He also knows how to dress well."
       }
     ]
   },
@@ -154,7 +153,7 @@ const HeroDescriptions = [
         name: "Biotic Launcher",
         desc:
           "Baptiste’s three-round-burst Biotic Launcher rewards accuracy and recoil control with significant damage output. It also doubles as a healing device, lobbing projectiles that heal allies near the point of impact.",
-        flavor: "Arching, healing projectiles for the rescue"
+        flavor: "Arching healing projectiles for the rescue."
       },
       {
         img:
@@ -162,7 +161,7 @@ const HeroDescriptions = [
         name: "Regenerative Burst",
         desc:
           "Baptiste activates an intense regenerative burst that heals himself and nearby allies over time.",
-        flavor: "Everyone should take a breather"
+        flavor: "Everyone should take a breather."
       },
       {
         img:
@@ -171,7 +170,7 @@ const HeroDescriptions = [
         desc:
           "Baptiste uses a device to create a field that prevents allies from dying. The generator can be destroyed.",
         flavor:
-          "You wanted to bid farewell... But the lamp saved you once again"
+          "You planned to bid farewell... But the lamp saved you once again."
       },
       {
         img:
@@ -179,14 +178,14 @@ const HeroDescriptions = [
         name: "Amplification Matrix",
         desc:
           "Baptiste creates a matrix that doubles the damage and healing effects of friendly projectiles that pass through it.",
-        flavor: "The ultimate window of opportunity"
+        flavor: "The ultimate window of opportunity."
       },
       {
         img:
           "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/e5/Baptiste-ability5.png?version=5251ffaec4e9faf57c26446cc6f46f9e",
         name: "Exo Boots",
         desc: "By first crouching, Baptiste can jump higher.",
-        flavor: "No highground's unreachable"
+        flavor: "No highground's unreachable."
       }
     ]
   },
@@ -195,7 +194,7 @@ const HeroDescriptions = [
     name: "Bastion",
     img: `${fullBastion}`,
     role: "Damage",
-    flavor: "He could be your worst enemy... or your best robro",
+    flavor: "He could be your toughest opponent... or your best robro",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -212,7 +211,7 @@ const HeroDescriptions = [
         desc:
           "In Recon mode, Bastion is fully mobile, outfitted with a submachine gun that fires steady bursts of bullets at medium range.",
         flavor:
-          "The curious Bastion likes to explore the world. He likes to stay safe at all times"
+          "The curious Bastion likes to explore the world. He's a walking Swiss army nife."
       },
       {
         img:
@@ -221,7 +220,7 @@ const HeroDescriptions = [
         desc:
           "In Sentry mode, Bastion is a stationary powerhouse equipped with a gatling gun capable of unleashing a hail of bullets. The gun's aim can be 'walked' across multiple targets, dealing devastating damage at short to medium range.",
         flavor:
-          "When tired from exploration, he likes to sit down and have some fun"
+          "When tired from exploration, he likes to sit down and have some fun."
       },
       {
         img:
@@ -229,7 +228,7 @@ const HeroDescriptions = [
         name: "Reconfigure",
         desc:
           "Bastion transforms between its two primary combat modes to adapt to battlefield conditions.",
-        flavor: "The flexible robro"
+        flavor: "The flexible robro."
       },
       {
         img:
@@ -237,7 +236,7 @@ const HeroDescriptions = [
         name: "Self-Repair",
         desc:
           "Bastion restores its health; it cannot fire weapons while the repair process is in effect.",
-        flavor: "Self-maintenance keeps the rust away"
+        flavor: "Self-maintenance keeps the rust away."
       },
       {
         img:
@@ -270,7 +269,7 @@ const HeroDescriptions = [
         name: "Rocket Flail",
         desc:
           "Brigitte's melee weapon has an extended range, enabling her to strike multiple enemies with a single swing.",
-        flavor: "The coolest way to play a first person shooter game"
+        flavor: "The coolest way to play a first person shooter game."
       },
       {
         img:
@@ -278,7 +277,7 @@ const HeroDescriptions = [
         name: "Repair Pack",
         desc:
           "Brigitte throws a Repair Pack that can heal an ally. Any healing over that ally’s maximum health provides them with armor instead.",
-        flavor: "Papa Torb tought her daugher some tricks"
+        flavor: "Papa Torb tought his daughter some tricks."
       },
       {
         img:
@@ -286,7 +285,7 @@ const HeroDescriptions = [
         name: "Whip Shot",
         desc:
           "Brigitte throws her flail a long distance, dealing damage and knocking an enemy away from her.",
-        flavor: "Protecting your private sphere from obtrusive enemies"
+        flavor: "Protecting her private sphere from obtrusive enemies."
       },
       {
         img:
@@ -294,7 +293,7 @@ const HeroDescriptions = [
         name: "Barrier Shield",
         desc:
           "Brigitte deploys a frontal energy barrier to absorb a limited amount of damage.",
-        flavor: "I'm the tankiest of supports"
+        flavor: "I'm the tankiest of supports."
       },
       {
         img:
@@ -302,7 +301,7 @@ const HeroDescriptions = [
         name: "Shield Bash",
         desc:
           "Once her Barrier Shield is deployed, Brigitte can dash forward to stun an enemy.",
-        flavor: "Excellent at interrupting ultimate abilities"
+        flavor: "Excellent for interrupting ultimate abilities."
       },
       {
         img:
@@ -319,7 +318,7 @@ const HeroDescriptions = [
     name: "D.Va",
     img: `${fullDVa}`,
     role: "Tank",
-    flavor: "",
+    flavor: "One of Korea's top gamers and MEKA pilots",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -335,7 +334,7 @@ const HeroDescriptions = [
         name: "Fusion Cannons",
         desc:
           "D.Va's mech is equipped with twin short-range rotating cannons. They lay down continuous, high-damage fire without needing to reload, but slow D.Va’s movement while they’re active.",
-        flavor: ""
+        flavor: "No need to reload these guns. Strong at a shorter range."
       },
       {
         img:
@@ -343,7 +342,8 @@ const HeroDescriptions = [
         name: "Light Gun",
         desc:
           "While outside of her mech, D.Va can continue the fight with a mid-range automatic blaster.",
-        flavor: ""
+        flavor:
+          "If you play as Baby D.Va, the enemies might stare in awe at you. Some call it staggering, but in fact, it's D.Va's fame that's captivating them."
       },
       {
         img:
@@ -351,7 +351,7 @@ const HeroDescriptions = [
         name: "Boosters",
         desc:
           "D.Va’s mech launches into the air, her momentum carrying her forward. She can turn and change directions or barrel through her enemies, knocking them back.",
-        flavor: ""
+        flavor: "What would be a combat mech without the ability to fly?"
       },
       {
         img:
@@ -359,14 +359,14 @@ const HeroDescriptions = [
         name: "Defense Matrix",
         desc:
           "D.Va can maintain this forward-facing targeting array for a short period of time; while active, it'll stop incoming projectiles.",
-        flavor: ""
+        flavor: "A well-timed matrix can eat a grav or blizzard."
       },
       {
         img:
           "https://gamepedia.cursecdn.com/overwatch_gamepedia/1/17/Ability-dva7.png?version=61b4fe48451e2d9229f467f1d259bdd8",
         name: "Micro Missiles",
         desc: "D.Va launches a volley of explosive rockets.",
-        flavor: ""
+        flavor: "Now you can shoot and use defense matrix at the same time."
       },
       {
         img:
@@ -374,7 +374,7 @@ const HeroDescriptions = [
         name: "Self-Desctruct",
         desc:
           "D.Va ejects from her mech and sets its reactor to explode, dealing massive damage to nearby opponents.",
-        flavor: ""
+        flavor: "Blow up some foes, and take a selfie."
       },
       {
         img:
@@ -382,7 +382,7 @@ const HeroDescriptions = [
         name: "Call Mech",
         desc:
           "If her armored battle suit is destroyed, D.Va can call down a fresh mech and return to the fray.",
-        flavor: ""
+        flavor: "Where do these mechs actually come from?"
       }
     ]
   },
@@ -391,7 +391,7 @@ const HeroDescriptions = [
     name: "Doomfist",
     img: `${fullDoomfist}`,
     role: "Damage",
-    flavor: "",
+    flavor: "In his childhood, he probably watched One Punch Man",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -407,7 +407,7 @@ const HeroDescriptions = [
         name: "Hand Cannon",
         desc:
           "Doomfist fires a short-range burst from the knuckles of his fist. Its ammunition is automatically regenerated over a short time.",
-        flavor: ""
+        flavor: "Not a cannon you hold in your hand."
       },
       {
         img:
@@ -415,14 +415,14 @@ const HeroDescriptions = [
         name: "Seismic Slam",
         desc:
           "Doomfist leaps forward and smashes into the ground, knocking nearby enemies toward him.",
-        flavor: ""
+        flavor: "It's time to slam!"
       },
       {
         img:
           "https://gamepedia.cursecdn.com/overwatch_gamepedia/2/2c/Rising_uppercut.png?version=a5f84128951cf2b268c8bce6674c2f52",
         name: "Rising Uppercut",
         desc: "Doomfist uppercuts enemies in front of him into the air.",
-        flavor: ""
+        flavor: "Street Fighter fans should be delighted."
       },
       {
         img:
@@ -430,7 +430,7 @@ const HeroDescriptions = [
         name: "Rocket Punch",
         desc:
           "After charging up, Doomfist lunges forward and knocks an enemy back, dealing additional damage if they impact a wall.",
-        flavor: ""
+        flavor: "Hits like a ton of bricks. Also let's you move around quickly."
       },
       {
         img:
@@ -438,7 +438,8 @@ const HeroDescriptions = [
         name: "Meteor Strike",
         desc:
           "Doomfist leaps into the sky, then crashes to the ground, dealing significant damage.",
-        flavor: ""
+        flavor:
+          "Clever players will use it to slide on ledges or escape from danger."
       }
     ]
   },
@@ -447,7 +448,7 @@ const HeroDescriptions = [
     name: "Genji",
     img: `${fullGenji}`,
     role: "Damage",
-    flavor: "",
+    flavor: "A double-jumping and wall-climbing ninja",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -463,7 +464,7 @@ const HeroDescriptions = [
         name: "Shuriken",
         desc:
           "Genji looses three deadly throwing stars in quick succession. Alternatively, he can throw three shuriken in a wider spread.",
-        flavor: ""
+        flavor: "Ninja style weapon."
       },
       {
         img:
@@ -471,7 +472,8 @@ const HeroDescriptions = [
         name: "Deflect",
         desc:
           "With lightning-quick swipes of his sword, Genji reflects an oncoming projectile and sends it rebounding towards his opponent.",
-        flavor: ""
+        flavor:
+          "Throws your gravs, blizzards, dragons and ohter stuff back at you."
       },
       {
         img:
@@ -479,7 +481,8 @@ const HeroDescriptions = [
         name: "Swift Strike",
         desc:
           "Genji darts forward, slashing with his katana and passing through foes in his path. If Genji eliminates a target, he can instantly use this ability again.",
-        flavor: ""
+        flavor:
+          "Genji's agility can be impressive, especially if he keeps slashing back and forth."
       },
       {
         img:
@@ -487,7 +490,7 @@ const HeroDescriptions = [
         name: "Dragonblade",
         desc:
           "Genji brandishes his katana for a brief period of time. Until he sheathes his sword, Genji can deliver killing strikes to any targets within his reach.",
-        flavor: ""
+        flavor: "Sushi master Genji will show you how to slice and dice."
       }
     ]
   },
@@ -496,7 +499,7 @@ const HeroDescriptions = [
     name: "Hanzo",
     img: `${fullHanzo}`,
     role: "Damage",
-    flavor: "",
+    flavor: "Never runs out of arrows. Some people say he has a dragon pet",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -511,7 +514,7 @@ const HeroDescriptions = [
           "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/e3/Ability-hanzo1.png?version=c244a4820ffa175db24bf6a0a65353d4",
         name: "Storm Bow",
         desc: "Hanzo nocks and fires an arrow at his target.",
-        flavor: ""
+        flavor: "Target practice."
       },
       {
         img:
@@ -519,7 +522,7 @@ const HeroDescriptions = [
         name: "Sonic Arrow",
         desc:
           "Hanzo launches an arrow that contains a sonar tracking device. Any enemy within its detection radius is visibly marked, making them easier for Hanzo and his allies to hunt down.",
-        flavor: ""
+        flavor: "Hanzo can see your every move."
       },
       {
         img:
@@ -527,7 +530,8 @@ const HeroDescriptions = [
         name: "Storm Arrows",
         desc:
           "Hanzo’s next several arrows fire instantly, but at reduced damage.",
-        flavor: ""
+        flavor:
+          "This ability replaced Scatter Arrow. Geometry is not so simple anymore."
       },
       {
         img:
@@ -535,7 +539,7 @@ const HeroDescriptions = [
         name: "Lunge",
         desc:
           "Hanzo can double jump, allowing him to change direction mid-jump.",
-        flavor: ""
+        flavor: "Increased mobility for the bowman."
       },
       {
         img:
@@ -543,7 +547,8 @@ const HeroDescriptions = [
         name: "Dragonstrike",
         desc:
           "Hanzo summons a Spirit Dragon which travels through the air in a line. It passes through walls in its way, devouring any enemies it encounters.",
-        flavor: ""
+        flavor:
+          "Hanzo releases his dragon, so it gets some fresh air and a snack. According to rumors, Hanzo also owns a wolf."
       }
     ]
   },
@@ -552,7 +557,7 @@ const HeroDescriptions = [
     name: "Junkrat",
     img: `${fullJunkrat}`,
     role: "Damage",
-    flavor: "",
+    flavor: "This crazy guy certainly likes explosives",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -568,7 +573,7 @@ const HeroDescriptions = [
         name: "Frag Launcher",
         desc:
           "Junkrat's Frag Launcher lobs grenades a significant distance. They bounce to reach their destination, and blow up when they strike an enemy.",
-        flavor: ""
+        flavor: "Spammable, bouncy, exploding!"
       },
       {
         img:
@@ -576,7 +581,7 @@ const HeroDescriptions = [
         name: "Concussion Mine",
         desc:
           "After placing one of his homemade Concussion Mines, Junkrat can trigger it to damage enemies and send them flying... or propel himself through the air.",
-        flavor: ""
+        flavor: "He carries two of those for extra jumping potential."
       },
       {
         img:
@@ -584,7 +589,7 @@ const HeroDescriptions = [
         name: "Steel Trap",
         desc:
           "Junkrat tosses out a giant, metal-toothed trap. Should an enemy wander too close to the trap, it clamps on, injuring and immobilizing them.",
-        flavor: ""
+        flavor: "Did you really step into his trap?"
       },
       {
         img:
@@ -592,7 +597,7 @@ const HeroDescriptions = [
         name: "Total Mayhem",
         desc:
           "Junkrat's deranged sense of humor persists past his death. If killed, he drops several live grenades.",
-        flavor: ""
+        flavor: "When eliminating Junkrat, you wanna keep your distance."
       },
       {
         img:
@@ -600,7 +605,8 @@ const HeroDescriptions = [
         name: "RIP-Tire",
         desc:
           "Junkrat revs up a motorized tire bomb and sends it rolling across the battlefield, climbing over walls and obstacles. He can remotely detonate the RIP-Tire to deal serious damage to enemies caught in the blast, or just wait for it to explode on its own.",
-        flavor: ""
+        flavor:
+          "The rolling tire can climb walls and ambush your team, but you can try to destroy it before it blows you up."
       }
     ]
   },
@@ -609,7 +615,7 @@ const HeroDescriptions = [
     name: "Lucio",
     img: `${fullLucio}`,
     role: "Support",
-    flavor: "",
+    flavor: "The wall-riding DJ",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -625,7 +631,8 @@ const HeroDescriptions = [
         name: "Sonic Amplifier",
         desc:
           "Lúcio can hit his enemies with sonic projectiles or knock them back with a blast of sound.",
-        flavor: ""
+        flavor:
+          "Listening to loud music can hurt your ears. Or boop you off the map."
       },
       {
         img:
@@ -633,7 +640,7 @@ const HeroDescriptions = [
         name: "Crossfade",
         desc:
           "Lúcio continuously energizes himself—and nearby teammates—with music. He can switch between two songs: one amplifies movement speed, while the other regenerates health.",
-        flavor: ""
+        flavor: "It's speed or healing. It might even change every second."
       },
       {
         img:
@@ -641,7 +648,7 @@ const HeroDescriptions = [
         name: "Amp It Up",
         desc:
           "Lúcio increases the volume on his speakers, boosting the effects of his songs.",
-        flavor: ""
+        flavor: "Let's play it louder!"
       },
       {
         img:
@@ -649,7 +656,7 @@ const HeroDescriptions = [
         name: "Sound Barrier",
         desc:
           "Protective waves radiate out from Lúcio’s Sonic Amplifier, briefly providing him and nearby allies with personal shields.",
-        flavor: ""
+        flavor: "Juicy ultimate that can safe you from trouble."
       }
     ]
   },
@@ -658,7 +665,7 @@ const HeroDescriptions = [
     name: "McCree",
     img: `${fullMcCree}`,
     role: "Damage",
-    flavor: "",
+    flavor: "The gunslinger from the wild west",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -674,7 +681,7 @@ const HeroDescriptions = [
         name: "Peacekeeper",
         desc:
           "McCree fires off a round from his trusty six-shooter. He can fan the Peacekeeper’s hammer to swiftly unload the entire cylinder.",
-        flavor: ""
+        flavor: "Justice ain't gonna dispense itself."
       },
       {
         img:
@@ -682,7 +689,7 @@ const HeroDescriptions = [
         name: "Combat Roll",
         desc:
           "McCree dives in the direction he’s moving, effortlessly reloading his Peacekeeper in the process.",
-        flavor: ""
+        flavor: "How does he reload that gun so fast?"
       },
       {
         img:
@@ -690,7 +697,7 @@ const HeroDescriptions = [
         name: "Flashbang",
         desc:
           "McCree heaves a blinding grenade that explodes shortly after it leaves his hand. The blast staggers enemies in a small radius.",
-        flavor: ""
+        flavor: "Oh, excuse me..."
       },
       {
         img:
@@ -698,7 +705,7 @@ const HeroDescriptions = [
         name: "Deadeye",
         desc:
           "Focus. Mark. Draw. McCree takes a few precious moments to aim; when he’s ready to fire, he shoots every enemy in his line of sight. The weaker his targets are, the faster he’ll line up a killshot.",
-        flavor: ""
+        flavor: "It's high noon somewhere in the world."
       }
     ]
   },
@@ -707,7 +714,7 @@ const HeroDescriptions = [
     name: "Mei",
     img: `${fullMei}`,
     role: "Damage",
-    flavor: "",
+    flavor: "Mei can give you the chills",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -723,7 +730,7 @@ const HeroDescriptions = [
         name: "Endothermic Blaster",
         desc:
           "Mei’s blaster unleashes a concentrated, short-range stream of frost that damages, slows, and ultimately freezes enemies in place. Mei can also use her blaster to shoot icicle-like projectiles at medium range.",
-        flavor: ""
+        flavor: "Why did it suddenly become so cold?"
       },
       {
         img:
@@ -731,7 +738,8 @@ const HeroDescriptions = [
         name: "Cryo-Freeze",
         desc:
           "Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.",
-        flavor: ""
+        flavor:
+          "Mei doesn't reccomend this technique for stopping your aging process."
       },
       {
         img:
@@ -739,7 +747,7 @@ const HeroDescriptions = [
         name: "Ice Wall",
         desc:
           "Mei generates an enormous ice wall that obstructs lines of sight, stops movement, and blocks attacks.",
-        flavor: ""
+        flavor: "Let one enemy in. Wall off the rest."
       },
       {
         img:
@@ -747,7 +755,7 @@ const HeroDescriptions = [
         name: "Blizzard",
         desc:
           "Mei deploys a weather-modification drone that emits gusts of wind and snow in a wide area. Enemies caught in the blizzard are slowed and take damage; those who linger too long are frozen solid.",
-        flavor: ""
+        flavor: "You can't go skiing in the snow dome, you might get frozen."
       }
     ]
   },
@@ -756,7 +764,7 @@ const HeroDescriptions = [
     name: "Mercy",
     img: `${fullMercy}`,
     role: "Support",
-    flavor: "",
+    flavor: "Your guardian angel",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -772,14 +780,15 @@ const HeroDescriptions = [
         name: "Caduceus Staff",
         desc:
           "Mercy engages one of two beams that connect to an ally. By maintaining the beams, she can either restore that ally’s health or increase the amount of damage they deal.",
-        flavor: ""
+        flavor: "Please pocket me Mercy!"
       },
       {
         img:
           "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/48/Ability-mercy2.png?version=5fbeef4ed769b0003e5d8513276b8239",
         name: "Caduceus Blaster",
         desc: "Mercy shoots a round from her sidearm.",
-        flavor: ""
+        flavor:
+          "If you don't play well, you might activate the Battle Mercy who's tired of your lack of dps."
       },
       {
         img:
@@ -787,14 +796,14 @@ const HeroDescriptions = [
         name: "Guardian Angel",
         desc:
           "Mercy flies towards a targeted ally, allowing her to reach them quickly and provide assistance in crucial moments.",
-        flavor: ""
+        flavor: "Insiders use it for super jumping."
       },
       {
         img:
           "https://gamepedia.cursecdn.com/overwatch_gamepedia/3/3e/Ability-mercy5.png?version=7e0fe581e0e4485f5583c4f120ec5c2e",
         name: "Resurrect",
         desc: "Mercy brings a dead ally back into the fight with full health.",
-        flavor: ""
+        flavor: "A shadow of its former glory, but still a useful ability."
       },
       {
         img:
@@ -802,14 +811,16 @@ const HeroDescriptions = [
         name: "Angelic Descent",
         desc:
           "Propelled by her Valkyrie suit, Mercy slows the speed of her descent from great heights.",
-        flavor: ""
+        flavor:
+          "Please get to the edge of the platform, so a falling Mercy can safe herself."
       },
       {
         img:
           "https://gamepedia.cursecdn.com/overwatch_gamepedia/f/f9/Ability-mercy6.png?version=a7f96516024c02602e6e9b831fe58f46",
         name: "Valkyrie",
         desc: "Gain the ability to fly. Mercy’s abilities are enhanced.",
-        flavor: ""
+        flavor:
+          "Healing and damage boosting is now AoE, and you fly better than Pharah."
       }
     ]
   },
@@ -818,7 +829,7 @@ const HeroDescriptions = [
     name: "Moira",
     img: `${fullMoira}`,
     role: "Support",
-    flavor: "",
+    flavor: "Your ethically questionable genetic scientist healer",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -834,7 +845,7 @@ const HeroDescriptions = [
         name: "Biotic Grasp",
         desc:
           "Using her left hand, Moira expends biotic energy to heal allies in front of her. Her right hand fires a long-range beam weapon that saps enemies’ health, healing Moira and replenishing her biotic energy.",
-        flavor: ""
+        flavor: "Siphon your foe's life energy to restore your juice."
       },
       {
         img:
@@ -842,14 +853,15 @@ const HeroDescriptions = [
         name: "Biotic Orb",
         desc:
           "Moira launches a rebounding biotic sphere; she can choose between a regeneration effect that heals the allies it passes through, or a decay effect that deals damage to enemies.",
-        flavor: ""
+        flavor:
+          "Yellow orb or purple orb? One of the toughest decisions to make."
       },
       {
         img:
           "https://gamepedia.cursecdn.com/overwatch_gamepedia/4/48/Ability_Moira_Fade.png?version=d4621c4df3eb4199c1ab1927413f62bb",
         name: "Fade",
         desc: "Moira quickly teleports a short distance.",
-        flavor: ""
+        flavor: "I don't like this place."
       },
       {
         img:
@@ -857,7 +869,7 @@ const HeroDescriptions = [
         name: "Coalescence",
         desc:
           "Moira channels a long-range beam that both heals allies and bypasses barriers to damage her enemies.",
-        flavor: ""
+        flavor: "Kamehame-Ha!"
       }
     ]
   },
@@ -866,7 +878,8 @@ const HeroDescriptions = [
     name: "Orisa",
     img: `${fullOrisa}`,
     role: "Tank",
-    flavor: "",
+    flavor:
+      "Built by the prodigy Efi Oladele, this pony will be your stallwart protector",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -882,7 +895,7 @@ const HeroDescriptions = [
         name: "Fusion Driver",
         desc:
           "Orisa’s automatic projectile cannon delivers sustained damage, but slows her movement while she fires it.",
-        flavor: ""
+        flavor: "A solid gun, for a tank character."
       },
       {
         img:
@@ -890,7 +903,8 @@ const HeroDescriptions = [
         name: "Fortify",
         desc:
           "Orisa temporarily reduces damage she takes, and cannot be affected by action-impairing effects.",
-        flavor: ""
+        flavor:
+          "Stops charging Reinhardts, punching Doomfists, or hooking Roadhogs."
       },
       {
         img:
@@ -898,7 +912,7 @@ const HeroDescriptions = [
         name: "HALT!",
         desc:
           "Orisa launches a graviton charge which she can detonate, slowing nearby enemies and pulling them towards the explosion.",
-        flavor: ""
+        flavor: "The mini graviton surge. Popular combo with Roadhog's hook."
       },
       {
         img:
@@ -906,7 +920,7 @@ const HeroDescriptions = [
         name: "Protective Barrier",
         desc:
           "Orisa throws out a stationary barrier that can protect her and her allies from enemy fire.",
-        flavor: ""
+        flavor: "Bastion's best friend."
       },
       {
         img:
@@ -914,7 +928,8 @@ const HeroDescriptions = [
         name: "Supercharger",
         desc:
           "Orisa deploys a device to increase damage inflicted by allies within her line of sight.",
-        flavor: ""
+        flavor:
+          "The bongo provides your team with a nano-boost-level damage buff."
       }
     ]
   },
@@ -923,7 +938,8 @@ const HeroDescriptions = [
     name: "Pharah",
     img: `${fullPharah}`,
     role: "Damage",
-    flavor: "",
+    flavor:
+      "Flying suit? Check. Rocket jumping? Check. Pharah reports for duty",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -939,7 +955,8 @@ const HeroDescriptions = [
         name: "Rocket Launcher",
         desc:
           "Pharah’s primary weapon launches rockets that deal significant damage in a wide blast radius.",
-        flavor: ""
+        flavor:
+          "Direct rocket hits grant maximum satisfaction to Phara players."
       },
       {
         img:
@@ -947,7 +964,7 @@ const HeroDescriptions = [
         name: "Jump Jet",
         desc:
           "Propelled by her suit’s thrusters, Pharah soars high into the air.",
-        flavor: ""
+        flavor: "The skies are Phara's domain."
       },
       {
         img:
@@ -955,7 +972,7 @@ const HeroDescriptions = [
         name: "Concussive Blast",
         desc:
           "Pharah looses a wrist rocket that knocks back any enemies it strikes.",
-        flavor: ""
+        flavor: "Push foes off the map or quickly reposition yourself."
       },
       {
         img:
@@ -963,7 +980,8 @@ const HeroDescriptions = [
         name: "Barrage",
         desc:
           "Pharah directs a continuous salvo of mini-rockets to destroy groups of enemies.",
-        flavor: ""
+        flavor:
+          "According to latest weather forecast, it will be raining justice."
       }
     ]
   },
@@ -972,7 +990,7 @@ const HeroDescriptions = [
     name: "Reaper",
     img: `${fullReaper}`,
     role: "Damage",
-    flavor: "",
+    flavor: "The close range tank shredder",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -987,7 +1005,7 @@ const HeroDescriptions = [
           "https://gamepedia.cursecdn.com/overwatch_gamepedia/d/df/Ability-reaper1.png?version=55f7bf9728df09cec7895b47c72135ce",
         name: "Hellfire Shotguns",
         desc: "Reaper tears enemies apart with twin shotguns.",
-        flavor: ""
+        flavor: "Getting close with an enemy reaper is strongly discouraged."
       },
       {
         img:
@@ -995,7 +1013,8 @@ const HeroDescriptions = [
         name: "Wraith Form",
         desc:
           "Reaper becomes a shadow for a short period of time. While in this form, he takes no damage and is able to pass through enemies, but cannot fire his weapons or use other abilities.",
-        flavor: ""
+        flavor:
+          "Literally turns into a ghost-like being to escape from any incoming damage."
       },
       {
         img:
@@ -1003,7 +1022,8 @@ const HeroDescriptions = [
         name: "Shadow Step",
         desc:
           "After marking a destination, Reaper disappears and reappears at that location.",
-        flavor: ""
+        flavor:
+          "It's possible that Reaper came up with this ability after playing a rogue in WoW."
       },
       {
         img:
@@ -1011,7 +1031,7 @@ const HeroDescriptions = [
         name: "Death Blossom",
         desc:
           "In a blur of motion, Reaper empties both Hellfire Shotguns at breakneck speed, dealing massive damage to all nearby enemies.",
-        flavor: ""
+        flavor: "The spinning beyblade of doom."
       }
     ]
   },
@@ -1020,7 +1040,7 @@ const HeroDescriptions = [
     name: "Reinhardt",
     img: `${fullReinhardt}`,
     role: "Tank",
-    flavor: "",
+    flavor: "Your most iconic main tank",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1036,7 +1056,8 @@ const HeroDescriptions = [
         name: "Rocket Hammer",
         desc:
           "Reinhardt’s Rocket Hammer is an exemplary melee weapon, able to deal punishing damage in a wide arc with every swing.",
-        flavor: ""
+        flavor:
+          "A robust and heavy melee weapon carried by a 2,23 m tall warrior."
       },
       {
         img:
@@ -1044,7 +1065,7 @@ const HeroDescriptions = [
         name: "Barrier Field",
         desc:
           "Reinhardt projects a broad, forward-facing energy barrier, which can absorb substantial damage before it is destroyed. Though Reinhardt can protect himself and his companions behind the barrier, he cannot attack while sustaining it.",
-        flavor: ""
+        flavor: "Guys, just stay behind the shield, and we win."
       },
       {
         img:
@@ -1052,7 +1073,7 @@ const HeroDescriptions = [
         name: "Charge",
         desc:
           "Reinhardt charges forth in a straight line, pinning the first enemy in his path and knocking others aside. If he collides with a wall, the foe he’s carrying suffers extreme damage.",
-        flavor: ""
+        flavor: "A ride with the Reinhardt train is a painful experience."
       },
       {
         img:
@@ -1060,7 +1081,7 @@ const HeroDescriptions = [
         name: "Fire Strike",
         desc:
           "By whipping his Rocket Hammer forward, Reinhardt slings a flaming projectile which pierces and damages any enemies it touches.",
-        flavor: ""
+        flavor: "Cheeky fire strikes help you charge your ultimate faster."
       },
       {
         img:
@@ -1068,7 +1089,7 @@ const HeroDescriptions = [
         name: "Earthshatter",
         desc:
           "Reinhardt forcefully slams his Rocket Hammer into the ground, knocking down and damaging all enemies in front of him.",
-        flavor: ""
+        flavor: "Hammer down!"
       }
     ]
   },
@@ -1077,7 +1098,7 @@ const HeroDescriptions = [
     name: "Roadhog",
     img: `${fullRoadhog}`,
     role: "Tank",
-    flavor: "",
+    flavor: "He might not look very fit, but he will soak some damage for you",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1093,7 +1114,8 @@ const HeroDescriptions = [
         name: "Scrap Gun",
         desc:
           "Roadhog's Scrap Gun fires short-range blasts of shrapnel with a wide spread. Alternatively, it can launch a shrapnel ball that detonates farther away, scattering metal fragments from the point of impact.",
-        flavor: ""
+        flavor:
+          "Back in the days, this gun used to one-shot people. Now it's a bit weaker, but still dangerous."
       },
       {
         img:
@@ -1101,7 +1123,7 @@ const HeroDescriptions = [
         name: "Take A Breather",
         desc:
           "Roadhog restores a chunk of his health over a brief period of time.",
-        flavor: ""
+        flavor: "He likes to briefly relax between tense fights."
       },
       {
         img:
@@ -1109,7 +1131,8 @@ const HeroDescriptions = [
         name: "Chain Hook",
         desc:
           "Roadhog hurls his chain at a target; if it catches, he yanks them into close range.",
-        flavor: ""
+        flavor:
+          "Fisherman Roadhog enjoys hooking his foes and cooking them right away."
       },
       {
         img:
@@ -1117,7 +1140,7 @@ const HeroDescriptions = [
         name: "Whole Hog",
         desc:
           "After cramming a top-loader onto his Scrap Gun, Roadhog pours in ammo. For a short time, he can crank out a stream of shrapnel that knocks back enemies.",
-        flavor: ""
+        flavor: "Fill your gun with a ton of junk a go wild!"
       }
     ]
   },
@@ -1126,7 +1149,7 @@ const HeroDescriptions = [
     name: "Soldier 76",
     img: `${fullSoldier}`,
     role: "Damage",
-    flavor: "",
+    flavor: "A flexible and reliable fighter",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1142,7 +1165,7 @@ const HeroDescriptions = [
         name: "Heavy Pulse Rifle",
         desc:
           "Soldier: 76’s rifle remains particularly steady while unloading fully-automatic pulse fire.",
-        flavor: ""
+        flavor: "The source of your sustained dps."
       },
       {
         img:
@@ -1150,7 +1173,8 @@ const HeroDescriptions = [
         name: "Helix Rockets",
         desc:
           "Tiny rockets spiral out of Soldier: 76’s Pulse Rifle in a single burst. The rockets’ explosion damages enemies in a small radius.",
-        flavor: ""
+        flavor:
+          "Also useful for rocket jumping and getting to otherwise unreachable places."
       },
       {
         img:
@@ -1158,7 +1182,7 @@ const HeroDescriptions = [
         name: "Sprint",
         desc:
           "Whether he needs to evade a firefight or get back into one, Soldier: 76 can rush ahead in a burst of speed. His sprint ends if he takes an action other than charging forward.",
-        flavor: ""
+        flavor: "This soldier surely has great stamina."
       },
       {
         img:
@@ -1166,7 +1190,7 @@ const HeroDescriptions = [
         name: "Biotic Field",
         desc:
           "Soldier: 76 plants a biotic emitter on the ground. Its energy projection restores health to 76 and any of his squadmates within the field.",
-        flavor: ""
+        flavor: "Join your teammate for a rejuvenating session."
       },
       {
         img:
@@ -1174,7 +1198,7 @@ const HeroDescriptions = [
         name: "Tactical Visor",
         desc:
           "Soldier: 76’s pinpoint targeting visor “locks” his aim on the threat closest to his crosshairs. If an enemy leaves his line of sight, Soldier: 76 can quickly switch to another target.",
-        flavor: ""
+        flavor: "He's got you in his sights. You better should hide."
       }
     ]
   },
@@ -1183,7 +1207,8 @@ const HeroDescriptions = [
     name: "Sombra",
     img: `${fullSombra}`,
     role: "Damage",
-    flavor: "",
+    flavor:
+      "Sombra is a notorius hacker. She knows more about you than you think",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1199,7 +1224,7 @@ const HeroDescriptions = [
         name: "Machine Pistol",
         desc:
           "Sombra’s fully-automatic machine pistol fires in a short-range spread.",
-        flavor: ""
+        flavor: "It's worth reloading this while you're invisible."
       },
       {
         img:
@@ -1207,7 +1232,8 @@ const HeroDescriptions = [
         name: "Hack",
         desc:
           "Sombra hacks enemies to temporarily stop them from using their abilities, or hacks first aid kits to make them useless to her opponents.",
-        flavor: ""
+        flavor:
+          "The reason why Hammond mains consider switching their character."
       },
       {
         img:
@@ -1215,7 +1241,8 @@ const HeroDescriptions = [
         name: "Stealth",
         desc:
           "Sombra becomes invisible, during which her speed is boosted considerably. Attacking, using offensive abilities, or taking damage disables her camouflage. Sombra cannot capture objectives while invisible.",
-        flavor: ""
+        flavor:
+          "It's good to sneak behind the enemy lines. You can see them, they can't see you."
       },
       {
         img:
@@ -1223,7 +1250,7 @@ const HeroDescriptions = [
         name: "Translocator",
         desc:
           "Sombra tosses out a translocator beacon. She can instantly return to the beacon’s location while it is active (including when it’s in mid-flight).",
-        flavor: ""
+        flavor: "The IT-girl has to have the latest tech."
       },
       {
         img:
@@ -1231,7 +1258,7 @@ const HeroDescriptions = [
         name: "EMP",
         desc:
           "Sombra discharges electromagnetic energy in a wide radius, destroying enemy barriers and shields and hacking all opponents caught in the blast.",
-        flavor: ""
+        flavor: "A blackout in town. And the cure for bunker comp."
       }
     ]
   },

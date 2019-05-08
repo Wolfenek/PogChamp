@@ -7,6 +7,9 @@ $font-set: "Rubik", sans-serif;
 .flavor-text {
   color: $flavor-color;
   font-size: 19px;
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   padding: 5px;
+  &.bigger {
+    font-size: 24px;
+  }
 }

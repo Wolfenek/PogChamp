@@ -27,7 +27,7 @@ const HeroShowcase = ({ description }) => {
         <div className="hero-header">
           <h1>{name}</h1>
           <h2>Role: {role}</h2>
-          <p className="flavor-text">{flavor}</p>
+          <p className="flavor-text bigger">{flavor}</p>
         </div>
         <div>
           <img src={img} alt="" />
