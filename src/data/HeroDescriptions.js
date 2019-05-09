@@ -1302,7 +1302,7 @@ const HeroDescriptions = [
         desc:
           "Symmetra places a temporary teleporter exit pad at a distance and connects it to a teleporter entry pad at her current location. Allies (and some of their abilities, such as Junkrat’s RIP-Tire) can travel from the entry pad to the exit pad instantly.",
         flavor:
-          "One of the funkiest abilities in the game. Surprise your enemies with teleported turrets, Bastions or DV.a bombs."
+          "One of the funkiest abilities in the game. Surprise your enemies with teleported turrets, Bastions, DV.a bombs, and more."
       },
       {
         img:

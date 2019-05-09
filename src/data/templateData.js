@@ -1,3 +1,4 @@
+//Template to create a new hero
 const HeroDescriptions = [
   {
     id: "",

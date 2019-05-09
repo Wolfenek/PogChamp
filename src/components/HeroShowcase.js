@@ -3,7 +3,7 @@ import uuidv5 from "uuid";
 
 const HeroShowcase = ({ description }) => {
   console.log("from away", description);
-
+  // Function displaying info about hero skills
   const showSkills = () => {
     return description[0].skills.map(item => (
       <div className="skill-info-grid" key={uuidv5()}>
@@ -21,6 +21,7 @@ const HeroShowcase = ({ description }) => {
     ));
   };
 
+  //Displaying core info about game characters
   const content = description.map(({ id, name, img, role, flavor, hp }) => (
     <React.Fragment key={uuidv5()}>
       <div className="main-info-grid" key={id}>

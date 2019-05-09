@@ -3,13 +3,11 @@
 @import "./partials/typography";
 @import "./partials/heroes";
 @import "./partials/layout";
-@import "./partials/loader";
 
 body {
   margin: 0;
   padding: 0;
   color: $font-color;
-  // @include italic;
   background-color: $bg-color;
   font-family: $font-set;
   -webkit-font-smoothing: antialiased;
