@@ -7,6 +7,7 @@ import HeroShowcase from "../components/HeroShowcase";
 const Heroes = () => {
   const [hero, currentHero] = useState("");
   const [description, currentDescription] = useState(HeroDescriptions);
+  const [isFiltered, setIsFiltered] = useState(false);
 
   useEffect(() => {
     if (hero) {
@@ -20,6 +21,7 @@ const Heroes = () => {
 
   const setCurrentDescription = () => {
     currentDescription(HeroDescriptions.filter(data => data.id === hero));
+    setIsFiltered(true);
   };
 
   const returnHeroShowcase = () => {
@@ -33,8 +35,7 @@ const Heroes = () => {
         <HeroIcons HeroImages={HeroImages} setCurrentHero={setCurrentHero} />
       </div>
       <div className="col-showcase txt-center">
-        {/* might need to only render HeroShowcase when the filter method is complete */}
-        {hero ? (
+        {isFiltered ? (
           returnHeroShowcase()
         ) : (
           <h2>Select heroes on the left to view info about them</h2>

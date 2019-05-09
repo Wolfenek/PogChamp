@@ -60,7 +60,7 @@ const HeroDescriptions = [
         desc:
           "Ana fires a dart from her sidearm, rendering an enemy unconscious (though any damage will rouse them).",
         flavor:
-          "Nap time is an important part of every hero's day. Even if you're an enraged scientist from moon."
+          "Nap time is an important part of every hero's day. Even if you're an enraged scientist from the moon."
       },
       {
         img:
@@ -185,7 +185,7 @@ const HeroDescriptions = [
           "https://gamepedia.cursecdn.com/overwatch_gamepedia/e/e5/Baptiste-ability5.png?version=5251ffaec4e9faf57c26446cc6f46f9e",
         name: "Exo Boots",
         desc: "By first crouching, Baptiste can jump higher.",
-        flavor: "No highground's unreachable."
+        flavor: "No high ground's unreachable."
       }
     ]
   },
@@ -211,7 +211,7 @@ const HeroDescriptions = [
         desc:
           "In Recon mode, Bastion is fully mobile, outfitted with a submachine gun that fires steady bursts of bullets at medium range.",
         flavor:
-          "The curious Bastion likes to explore the world. He's a walking Swiss army nife."
+          "The curious Bastion likes to explore the world. He's a walking Swiss army knife."
       },
       {
         img:
@@ -277,7 +277,7 @@ const HeroDescriptions = [
         name: "Repair Pack",
         desc:
           "Brigitte throws a Repair Pack that can heal an ally. Any healing over that ally’s maximum health provides them with armor instead.",
-        flavor: "Papa Torb tought his daughter some tricks."
+        flavor: "Papa Torb taught his daughter some tricks."
       },
       {
         img:
@@ -318,7 +318,7 @@ const HeroDescriptions = [
     name: "D.Va",
     img: `${fullDVa}`,
     role: "Tank",
-    flavor: "One of Korea's top gamers and MEKA pilots",
+    flavor: "One of Korea's top pro gamers and MEKA pilots",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -473,7 +473,7 @@ const HeroDescriptions = [
         desc:
           "With lightning-quick swipes of his sword, Genji reflects an oncoming projectile and sends it rebounding towards his opponent.",
         flavor:
-          "Throws your gravs, blizzards, dragons and ohter stuff back at you."
+          "Throws your gravs, blizzards, dragons, and other stuff back at you."
       },
       {
         img:
@@ -499,7 +499,7 @@ const HeroDescriptions = [
     name: "Hanzo",
     img: `${fullHanzo}`,
     role: "Damage",
-    flavor: "Never runs out of arrows. Some people say he has a dragon pet",
+    flavor: "Never runs out of arrows. Some people say he's got a dragon pet",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -557,7 +557,7 @@ const HeroDescriptions = [
     name: "Junkrat",
     img: `${fullJunkrat}`,
     role: "Damage",
-    flavor: "This crazy guy certainly likes explosives",
+    flavor: "This madman certainly likes explosives",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -581,7 +581,7 @@ const HeroDescriptions = [
         name: "Concussion Mine",
         desc:
           "After placing one of his homemade Concussion Mines, Junkrat can trigger it to damage enemies and send them flying... or propel himself through the air.",
-        flavor: "He carries two of those for extra jumping potential."
+        flavor: "He carries two of them for extra jumping potential."
       },
       {
         img:
@@ -739,7 +739,7 @@ const HeroDescriptions = [
         desc:
           "Mei instantly surrounds herself with a block of thick ice. She heals and ignores damage while encased, but cannot move or use abilities.",
         flavor:
-          "Mei doesn't reccomend this technique if you wish to stop your aging process."
+          "Mei doesn't recommend this technique if you wish to stop your aging process."
       },
       {
         img:
@@ -788,7 +788,7 @@ const HeroDescriptions = [
         name: "Caduceus Blaster",
         desc: "Mercy shoots a round from her sidearm.",
         flavor:
-          "If you don't play well, you might activate the Battle Mercy who's tired of your lack of dps."
+          "If you don't play well, you might activate the Battle Mercy who's tired of your lack of DPS."
       },
       {
         img:
@@ -1115,7 +1115,7 @@ const HeroDescriptions = [
         desc:
           "Roadhog's Scrap Gun fires short-range blasts of shrapnel with a wide spread. Alternatively, it can launch a shrapnel ball that detonates farther away, scattering metal fragments from the point of impact.",
         flavor:
-          "Back in the days, this gun used to one-shot people. Now it's a bit weaker, but still dangerous."
+          "Back in the days, this gun used to one-shot people. Now it's a bit weaker but still dangerous."
       },
       {
         img:
@@ -1165,7 +1165,7 @@ const HeroDescriptions = [
         name: "Heavy Pulse Rifle",
         desc:
           "Soldier: 76’s rifle remains particularly steady while unloading fully-automatic pulse fire.",
-        flavor: "The source of your sustained dps."
+        flavor: "The source of your sustained DPS."
       },
       {
         img:
@@ -1208,7 +1208,7 @@ const HeroDescriptions = [
     img: `${fullSombra}`,
     role: "Damage",
     flavor:
-      "Sombra is a notorius hacker. She knows more about you than you think",
+      "Sombra is a notorious hacker. She knows more about you than you think",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1302,7 +1302,7 @@ const HeroDescriptions = [
         desc:
           "Symmetra places a temporary teleporter exit pad at a distance and connects it to a teleporter entry pad at her current location. Allies (and some of their abilities, such as Junkrat’s RIP-Tire) can travel from the entry pad to the exit pad instantly.",
         flavor:
-          "One of the funkiest abilities in the game. Teleported Bastions or DV.a bombs can now surprise foes even more."
+          "One of the funkiest abilities in the game. Surprise your enemies with teleported turrets, Bastions or DV.a bombs."
       },
       {
         img:
@@ -1346,7 +1346,7 @@ const HeroDescriptions = [
         desc:
           "This multipurpose hammer repairs turrets and, in a pinch, can also be used as a weapon.",
         flavor:
-          "Back in the old times, master Torb players would hammer a wall, while the turret would get them the Play of the Game."
+          "Back in the old times, master Torb players would hammer a wall while the turret would get them the Play of the Game."
       },
       {
         img:
@@ -1429,7 +1429,7 @@ const HeroDescriptions = [
     name: "Widowmaker",
     img: `${fullWidowmaker}`,
     role: "Damage",
-    flavor: "Playing Windowmaker will put your aim to the test.",
+    flavor: "Playing Widowmaker will put your aim to the test.",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -1547,7 +1547,7 @@ const HeroDescriptions = [
         desc:
           "Wrecking Ball’s automatic assault cannons tear apart threats at medium range.",
         flavor:
-          "Instead of realoading these guns, you might wanna spend 2 seconds in ball form."
+          "Instead of reloading these guns, you might wanna spend 2 seconds in ball form."
       },
       {
         img:
@@ -1581,7 +1581,7 @@ const HeroDescriptions = [
         desc:
           "Wrecking Ball slams onto the ground below, damaging enemies and launching them upward.",
         flavor:
-          "Dropping from above. Probably the most imporant offensive skill of the hamster."
+          "Dropping from above. Probably the most important offensive skill of the hamster."
       },
       {
         img:
@@ -1666,7 +1666,7 @@ const HeroDescriptions = [
         desc:
           "Zenyatta projects his destructive energy orbs either individually, or in a rapid-fire volley after a few seconds spent gathering power.",
         flavor:
-          "They serve as a constant stream of damage. Extra powerful if five of them are thrown at en unexpecting foe."
+          "They serve as a constant stream of damage. Extra powerful if five of them are thrown at an unexpecting foe."
       },
       {
         img:

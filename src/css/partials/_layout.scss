@@ -20,21 +20,17 @@
 
 .row {
   display: flex;
-  // flex-wrap: wrap;
 }
 
 .col-heroes {
   @include column;
   position: fixed;
   height: 100%;
-  // flex: 0 0 85px;
   max-width: 85px;
   @include small {
-    // flex: 0 0 165px;
     max-width: 165px;
   }
   @include medium {
-    // flex: 0 0 275px;
     max-width: 275px;
   }
 }
@@ -43,9 +39,6 @@
   @include column;
   position: relative;
   margin-left: 85px;
-  // flex-basis: 0;
-  // flex-grow: 1;
-  // max-width: 100%;
   @include small {
     margin-left: 170px;
   }
@@ -59,9 +52,10 @@
   flex-wrap: wrap;
   img {
     cursor: pointer;
-    transition: background-color 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
     &:hover {
-      background-color: $bg-color-alt;
+      background-color: $hover-color;
+      transform: scale(1.1, 1.1);
     }
     @include medium {
       margin: 5px;

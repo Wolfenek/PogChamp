@@ -11,7 +11,7 @@ const HeroShowcase = ({ description }) => {
           <img src={item.img} alt="" />
         </div>
         <div className="skill-desc">
-          <h1>{item.name}</h1>
+          <h2>{item.name}</h2>
           <p>{item.desc}</p>
         </div>
         <div className="more-info">
@@ -27,7 +27,7 @@ const HeroShowcase = ({ description }) => {
         <div className="hero-header">
           <h1>{name}</h1>
           <h2>Role: {role}</h2>
-          <p className="flavor-text bigger">{flavor}</p>
+          <p className="main-flavor-text">{flavor}</p>
         </div>
         <div>
           <img src={img} alt="" />

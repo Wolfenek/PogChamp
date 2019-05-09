@@ -1,6 +1,6 @@
 @import "./partials/variables";
-@import "./partials/typography";
 @import "./partials/media";
+@import "./partials/typography";
 @import "./partials/heroes";
 @import "./partials/layout";
 @import "./partials/loader";
@@ -25,13 +25,4 @@ body {
 ul {
   padding: 0;
   list-style: none;
-}
-
-// h1, h2, h3 {
-//   margin-bottom: 0;
-// }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
