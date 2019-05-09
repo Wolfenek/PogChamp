@@ -4,7 +4,7 @@ I added custom flavor texts to every character and ability.
 
 ## Demo available here
 
-https://silly-panini-e47b33.netlify.com/
+https://pogchamp.netlify.com/
 
 ### Sources
 
