@@ -26,6 +26,7 @@
   @include column;
   position: fixed;
   height: 100%;
+  max-height: 2000px;
   max-width: 85px;
   @include small {
     max-width: 165px;
@@ -50,6 +51,12 @@
 .hero-list {
   display: flex;
   flex-wrap: wrap;
+  @include medium {
+    // Code below centers list vertically
+    position: absolute;
+    top: 42%;
+    transform: translateY(-42%);
+  }
   img {
     cursor: pointer;
     transition: all 300ms ease-in-out;
