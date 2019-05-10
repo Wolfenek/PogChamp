@@ -35,7 +35,7 @@ const HeroDescriptions = [
     name: "Ana",
     img: `${fullAna}`,
     role: "Support",
-    flavor: "Ana is a famous tea gourmet. And an excellent soldier",
+    flavor: "Ana is a famous tea gourmet and an excellent soldier",
     hp: {
       get total() {
         return this.base_hp + this.armor + this.shield;
@@ -656,7 +656,7 @@ const HeroDescriptions = [
         name: "Sound Barrier",
         desc:
           "Protective waves radiate out from Lúcio’s Sonic Amplifier, briefly providing him and nearby allies with personal shields.",
-        flavor: "Juicy ultimate that can safe you from trouble."
+        flavor: "Juicy ultimate that can save you from trouble."
       }
     ]
   },
@@ -812,7 +812,7 @@ const HeroDescriptions = [
         desc:
           "Propelled by her Valkyrie suit, Mercy slows the speed of her descent from great heights.",
         flavor:
-          "Please get to the edge of the platform, so a falling Mercy can safe herself."
+          "Please get to the edge of the platform, so a falling Mercy can save herself."
       },
       {
         img:

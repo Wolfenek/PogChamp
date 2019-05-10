@@ -3,6 +3,7 @@ import HeroImages from "../images/HeroImages";
 import HeroDescriptions from "../data/HeroDescriptions";
 import HeroIcons from "../components/HeroIcons";
 import HeroShowcase from "../components/HeroShowcase";
+import CallToAction from "../components/CallToAction";
 
 const Heroes = () => {
   const [hero, currentHero] = useState("");
@@ -38,7 +39,7 @@ const Heroes = () => {
         {isFiltered ? (
           returnHeroShowcase()
         ) : (
-          <h2>Select heroes on the left to view info about them</h2>
+          <CallToAction />
         )}
       </div>
     </div>
