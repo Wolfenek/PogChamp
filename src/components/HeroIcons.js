@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Scrollbars } from "react-custom-scrollbars";
-import ScrollArea from "react-scrollbar";
 
 const HeroIcons = props => {
   const [height, currentHeight] = useState(window.innerHeight);

@@ -8,9 +8,9 @@
   @include italic;
   color: $flavor-color;
   animation: call 2s ease-in-out infinite alternate;
-  // h2 {
-  //   padding-bottom: 120px;
-  // }
+  h2 {
+    padding-bottom: 40px;
+  }
 }
 
 @keyframes call {

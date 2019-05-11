@@ -1,10 +1,12 @@
 @import "./partials/variables";
 @import "./partials/media";
 @import "./partials/typography";
-@import "./partials/loaders";
 @import "./partials/layout";
 @import "./partials/heroes";
 @import "./partials/callToAction";
+@import "./partials/scrollBars";
+
+@include scrollbars(.5em, slategray);
 
 body {
   margin: 0;
