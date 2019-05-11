@@ -14,7 +14,7 @@ const HeroIcons = props => {
 
   return (
     <div className="col-heroes" style={{ height: `${height}px` }}>
-    
+      <Scrollbars>
         <ul className="hero-list">
           {props.HeroImages.map(({ id, src, altTag }) => (
             <li key={id} id={id} onClick={props.setCurrentHero}>
@@ -22,7 +22,7 @@ const HeroIcons = props => {
             </li>
           ))}
         </ul>
-   
+      </Scrollbars>
     </div>
   );
 };

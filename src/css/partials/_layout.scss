@@ -40,7 +40,7 @@
   display: flex;
   height: 95%;
   flex-wrap: wrap;
-  overflow: auto;
+  // overflow: auto !important;
   // @include medium {
   //   // Code below centers list vertically
   //   position: absolute;
