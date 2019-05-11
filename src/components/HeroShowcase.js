@@ -44,7 +44,11 @@ const HeroShowcase = ({ description }) => {
     </React.Fragment>
   ));
 
-  return <div>{content}</div>;
+  return (
+    <div className="col-showcase txt-center">
+      {content}
+    </div>
+  );
 };
 
 export default HeroShowcase;

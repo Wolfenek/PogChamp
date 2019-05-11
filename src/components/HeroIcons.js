@@ -1,17 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Scrollbars } from "react-custom-scrollbars";
+import ScrollArea from "react-scrollbar";
 
 const HeroIcons = props => {
+  const [height, currentHeight] = useState(window.innerHeight);
+  // const newHeight = height;
+
+  useEffect(() => {
+    const setCurrentHeight = () => currentHeight(window.innerHeight);
+    window.addEventListener("resize", setCurrentHeight);
+    return () => {
+      window.removeEventListener("resize", setCurrentHeight);
+    };
+  }, []);
+
   return (
-    <Scrollbars>
-      <ul className="hero-list">
-        {props.HeroImages.map(({ id, src, altTag }) => (
-          <li key={id} id={id} onClick={props.setCurrentHero}>
-            <img src={src} alt={altTag} />
-          </li>
-        ))}
-      </ul>
-    </Scrollbars>
+    <div className="col-heroes" style={{ height: `${height}px` }}>
+      <Scrollbars>
+        <ul className="hero-list">
+          {props.HeroImages.map(({ id, src, altTag }) => (
+            <li key={id} id={id} onClick={props.setCurrentHero}>
+              <img src={src} alt={altTag} />
+            </li>
+          ))}
+        </ul>
+      </Scrollbars>
+    </div>
   );
 };
 

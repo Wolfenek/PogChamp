@@ -32,16 +32,8 @@ const Heroes = () => {
 
   return (
     <div className="row">
-      <div className="col-heroes">
-        <HeroIcons HeroImages={HeroImages} setCurrentHero={setCurrentHero} />
-      </div>
-      <div className="col-showcase txt-center">
-        {isFiltered ? (
-          returnHeroShowcase()
-        ) : (
-          <CallToAction />
-        )}
-      </div>
+      <HeroIcons HeroImages={HeroImages} setCurrentHero={setCurrentHero} />
+      {isFiltered ? returnHeroShowcase() : <CallToAction />}
     </div>
   );
 };

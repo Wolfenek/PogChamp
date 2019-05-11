@@ -1,21 +1,21 @@
 .call-to-action {
   position: fixed;
   height: 100%;
-  max-height: 1850px;
+  max-height: 1600px;
   display: flex;
   justify-content: center;
   align-items: center;
   @include italic;
   color: $flavor-color;
   animation: call 2s ease-in-out infinite alternate;
-  h2 {
-    padding-bottom: 120px;
-  }
+  // h2 {
+  //   padding-bottom: 120px;
+  // }
 }
 
 @keyframes call {
   from {
-    transform: translateY(0px);
+    transform: translateY(-50px);
   }
   to {
     transform: translateY(50px);
