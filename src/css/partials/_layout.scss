@@ -39,8 +39,8 @@
 .hero-list {
   display: flex;
   height: 95%;
-  // overflow-y: scroll;
   flex-wrap: wrap;
+  overflow: auto;
   // @include medium {
   //   // Code below centers list vertically
   //   position: absolute;
