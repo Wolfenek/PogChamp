@@ -6,7 +6,7 @@
 @import "./partials/callToAction";
 @import "./partials/scrollBars";
 
-@include scrollbars(.5em, $bg-color-alt);
+@include scrollbars(0.5em, $bg-color-alt);
 
 body {
   margin: 0;
@@ -16,6 +16,7 @@ body {
   font-family: $font-set;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior: none;
 }
 
 *,
