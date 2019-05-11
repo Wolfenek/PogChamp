@@ -38,7 +38,8 @@
 
 .hero-list {
   display: flex;
-  height: 95%;
+  height: 100%;
+  margin: 0;
   flex-wrap: wrap;
   // overflow: auto !important;
   // @include medium {
