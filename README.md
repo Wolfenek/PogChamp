@@ -6,7 +6,7 @@ I added custom flavor texts to every character and ability.
 
 https://pogchamp.netlify.com/
 
-![](screenshots/screenshot.PNG)
+![](screenshot.PNG)
 
 ### Sources
 
