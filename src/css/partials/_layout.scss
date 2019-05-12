@@ -38,10 +38,6 @@
 
 .col-heroes-rwd-height {
   height: 100%;
-
-  // UPDATE - TRY TO GET RID OF POSITION: FIXED
-  // setting the below to media query hover only could help
-  // max-height: 800px;
 }
 
 .hero-list {
@@ -52,13 +48,6 @@
   }
   margin: 0;
   flex-wrap: wrap;
-  // overflow: auto !important;
-  // @include medium {
-  //   // Code below centers list vertically
-  //   position: absolute;
-  //   top: 42%;
-  //   transform: translateY(-42%);
-  // }
   img {
     cursor: pointer;
     transition: all 300ms ease-in-out;
