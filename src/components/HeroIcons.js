@@ -13,9 +13,7 @@ const HeroIcons = props => {
   // }, []);
 
   return (
-    <div className="col-heroes" 
-    style={{ height: `100%` }}
-    >
+    <div className="col-heroes col-heroes-rwd-height">
       <Scrollbars>
         <ul className="hero-list">
           {props.HeroImages.map(({ id, src, altTag }) => (

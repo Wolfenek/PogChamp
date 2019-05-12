@@ -36,9 +36,19 @@
   }
 }
 
+.col-heroes-rwd-height {
+  height: 100%;
+  // UPDATE - TRY TO GET RID OF POSITION: FIXED
+  // setting the below to media query hover only could help
+  // max-height: 800px;
+}
+
 .hero-list {
   display: flex;
   height: 100%;
+  @media (hover: none) {
+    height: 800px;
+  }
   margin: 0;
   flex-wrap: wrap;
   // overflow: auto !important;
