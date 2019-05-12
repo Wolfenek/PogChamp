@@ -6,6 +6,8 @@ I added custom flavor texts to every character and ability.
 
 https://pogchamp.netlify.com/
 
+![](screenshots/screenshot.PNG)
+
 ### Sources
 
 Images taken from: https://overwatch.gamepedia.com
