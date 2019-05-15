@@ -8,6 +8,12 @@
   }
 }
 
+.main-img-container {
+  @include large {
+    height: 340px;
+  }
+}
+
 .hero-header {
   align-self: center;
   @extend .row;

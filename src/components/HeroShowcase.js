@@ -2,7 +2,6 @@ import React from "react";
 import uuidv5 from "uuid";
 
 const HeroShowcase = ({ description }) => {
-  console.log("from away", description);
   // Function displaying info about hero skills
   const showSkills = () => {
     return description[0].skills.map(item => (
@@ -30,7 +29,7 @@ const HeroShowcase = ({ description }) => {
           <h2>Role: {role}</h2>
           <p className="main-flavor-text">{flavor}</p>
         </div>
-        <div>
+        <div className="main-img-container">
           <img src={img} alt="" />
         </div>
       </div>
@@ -44,11 +43,7 @@ const HeroShowcase = ({ description }) => {
     </React.Fragment>
   ));
 
-  return (
-    <div className="col-showcase txt-center">
-      {content}
-    </div>
-  );
+  return <div className="col-showcase txt-center">{content}</div>;
 };
 
 export default HeroShowcase;
