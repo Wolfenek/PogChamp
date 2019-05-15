@@ -13,6 +13,7 @@ const Heroes = () => {
   useEffect(() => {
     if (hero) {
       setCurrentDescription();
+      window.scrollTo(0, 0);
     }
   }, [hero]);
 
@@ -26,7 +27,6 @@ const Heroes = () => {
   };
 
   const returnHeroShowcase = () => {
-    window.scrollTo(0, 0);
     return <HeroShowcase description={description} />;
   };
 
