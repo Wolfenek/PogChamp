@@ -1,17 +1,21 @@
 // Custom scrollbars from: https://css-tricks.com/snippets/sass/custom-scrollbars-mixin/
-@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
+@mixin scrollbars(
+  $size,
+  $foreground-color,
+  $background-color: mix($foreground-color, white, 70%)
+) {
   // For Google Chrome
   ::-webkit-scrollbar {
-      width:  $size;
-      height: $size;
+    width: $size;
+    height: $size;
   }
 
   ::-webkit-scrollbar-thumb {
-      background: $foreground-color;
+    background: $foreground-color;
   }
 
   ::-webkit-scrollbar-track {
-      background: $background-color;
+    background: $background-color;
   }
 
   // For Internet Explorer

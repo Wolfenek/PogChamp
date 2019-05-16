@@ -11,29 +11,25 @@ const Heroes = () => {
   const [isFiltered, setIsFiltered] = useState(false);
 
   useEffect(() => {
+    const setCurrentDescription = () => {
+      currentDescription(HeroDescriptions.filter(data => data.id === hero));
+    };
     if (hero) {
       setCurrentDescription();
       window.scrollTo(0, 0);
+      setIsFiltered(true);
     }
   }, [hero]);
 
+  // Function passed down to the HeroIcons component
   const setCurrentHero = e => {
     currentHero(e.currentTarget.id);
-  };
-
-  const setCurrentDescription = () => {
-    currentDescription(HeroDescriptions.filter(data => data.id === hero));
-    setIsFiltered(true);
-  };
-
-  const returnHeroShowcase = () => {
-    return <HeroShowcase description={description} />;
   };
 
   return (
     <div className="row">
       <HeroIcons HeroImages={HeroImages} setCurrentHero={setCurrentHero} />
-      {isFiltered ? returnHeroShowcase() : <CallToAction />}
+      {isFiltered ? <HeroShowcase description={description} /> : <CallToAction />}
     </div>
   );
 };
