@@ -2,7 +2,7 @@
   position: fixed;
   height: 100%;
   max-height: 1600px;
-  @media (hover: none) and (any-pointer: coarse) {
+  @media (hover: none) {
     max-height: 820px;
   }
   display: flex;

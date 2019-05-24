@@ -29,9 +29,7 @@ const HeroIcons = props => {
                 onClick={() => {
                   newActive(id);
                 }}
-                style={{
-                  backgroundColor: active === id && "yellowgreen"
-                }}
+                className={"hero-img " + (active === id && "hero-img-active")}
               />
             </li>
           ))}

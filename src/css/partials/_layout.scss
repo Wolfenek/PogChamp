@@ -48,25 +48,6 @@
   }
   margin: 0;
   flex-wrap: wrap;
-  img {
-    cursor: pointer;
-    transition: all 300ms ease-in-out;
-    @media (hover: hover) {
-      &:hover {
-        background-color: $alt-color;
-      }
-    }
-
-    @include medium {
-      margin: 5px;
-    }
-  }
-}
-
-//class applied to currently clicked hero icon
-.active-icon {
-  background-color: $active-color;
-  transform: scale(1.1, 1.1);
 }
 
 .col-showcase {
