@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Scrollbars } from "react-custom-scrollbars";
 
 const HeroIcons = props => {
@@ -12,6 +12,10 @@ const HeroIcons = props => {
   //     window.removeEventListener("resize", setCurrentHeight);
   //   };
   // }, []);
+  const [active, setActive] = useState(null);
+  const newActive = id => {
+    setActive(id);
+  };
 
   return (
     <div className="col-heroes col-heroes-rwd-height">
@@ -19,7 +23,16 @@ const HeroIcons = props => {
         <ul className="hero-list">
           {props.HeroImages.map(({ id, src, altTag }) => (
             <li key={id} id={id} onClick={props.setCurrentHero}>
-              <img src={src} alt={altTag} />
+              <img
+                src={src}
+                alt={altTag}
+                onClick={() => {
+                  newActive(id);
+                }}
+                style={{
+                  backgroundColor: active === id && "yellowgreen"
+                }}
+              />
             </li>
           ))}
         </ul>

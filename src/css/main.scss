@@ -6,7 +6,7 @@
 @import "./partials/callToAction";
 @import "./partials/scrollBars";
 
-@include scrollbars(0.5em, $bg-color-alt);
+@include scrollbars(0.5em, $alt-color);
 
 body {
   margin: 0;

@@ -43,7 +43,7 @@
 .hero-list {
   display: flex;
   height: 100%;
-  @media (hover: none) and (any-pointer: coarse) {
+  @media (hover: none) {
     height: auto;
   }
   margin: 0;
@@ -51,14 +51,22 @@
   img {
     cursor: pointer;
     transition: all 300ms ease-in-out;
-    &:hover {
-      background-color: $hover-color;
-      transform: scale(1.1, 1.1);
+    @media (hover: hover) {
+      &:hover {
+        background-color: $alt-color;
+      }
     }
+
     @include medium {
       margin: 5px;
     }
   }
+}
+
+//class applied to currently clicked hero icon
+.active-icon {
+  background-color: $active-color;
+  transform: scale(1.1, 1.1);
 }
 
 .col-showcase {

@@ -6,7 +6,7 @@ import HeroShowcase from "../components/HeroShowcase";
 import CallToAction from "../components/CallToAction";
 
 const Heroes = () => {
-  const [hero, currentHero] = useState("");
+  const [hero, currentHero] = useState(null);
   const [description, currentDescription] = useState(HeroDescriptions);
   const [isFiltered, setIsFiltered] = useState(false);
 
@@ -26,10 +26,15 @@ const Heroes = () => {
     currentHero(e.currentTarget.id);
   };
 
+
   return (
     <div className="row">
       <HeroIcons HeroImages={HeroImages} setCurrentHero={setCurrentHero} />
-      {isFiltered ? <HeroShowcase description={description} /> : <CallToAction />}
+      {isFiltered ? (
+        <HeroShowcase description={description} />
+      ) : (
+        <CallToAction />
+      )}
     </div>
   );
 };
