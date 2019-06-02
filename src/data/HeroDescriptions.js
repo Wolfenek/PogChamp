@@ -885,8 +885,8 @@ const HeroDescriptions = [
         return this.base_hp + this.armor + this.shield;
       },
       base_hp: 200,
-      armor: 0,
-      shield: 200
+      armor: 200,
+      shield: 0
     },
     skills: [
       {
@@ -1536,8 +1536,8 @@ const HeroDescriptions = [
         return this.base_hp + this.armor + this.shield;
       },
       base_hp: 500,
-      armor: 0,
-      shield: 100
+      armor: 100,
+      shield: 0
     },
     skills: [
       {
