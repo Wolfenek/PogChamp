@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import HeroImages from "../images/HeroImages";
 import HeroDescriptions from "../data/HeroDescriptions";
 import HeroIcons from "../components/HeroIcons";
 import HeroShowcase from "../components/HeroShowcase";
@@ -29,7 +28,7 @@ const Heroes = () => {
 
   return (
     <div className="row">
-      <HeroIcons HeroImages={HeroImages} setCurrentHero={setCurrentHero} />
+      <HeroIcons setCurrentHero={setCurrentHero} hero={hero} />
       {isFiltered ? (
         <HeroShowcase description={description} />
       ) : (
